@@ -1,3 +1,7 @@
 # References
 
 - [Linkedin - AI Agents vs not AI Agent](https://www.linkedin.com/posts/rakeshgohel01_most-people-think-ai-agents-are-just-glorified-activity-7272981562130874368-z3Pe?utm_source=share&utm_medium=member_desktop)
+- [Linkedin - McKinsey & QuantumBlack: Why agents are the next frontier of generative AI](https://www.linkedin.com/posts/kierangilmurray_httpslnkdinedvuwsg-activity-7274004017339412480-YX8v?utm_source=share&utm_medium=member_desktop)
+    - [Book - Why agents are the next frontier of generative AI?](https://media.licdn.com/dms/document/media/v2/D4E1FAQEZ7PUZ0d1qyg/feedshare-document-pdf-analyzed/B4EZPAygZ.H0Ac-/0/1734106290837?e=1736985600&v=beta&t=JGxItaVIBz4YdFV5O39mH4cRm9MWjSU6-d3EHWebq_8)
+- [LinkedIn - Agentic AI Frameworks & AutoGen](https://www.linkedin.com/feed/update/urn:li:activity:7273004216556703744?utm_source=share&utm_medium=member_desktop)
+  - [Agentic AI Frameworks & AutoGen](https://media.licdn.com/dms/document/media/v2/D4E1FAQFjNADgjVlY9A/feedshare-document-pdf-analyzed/B4EZO7mr2rHEAc-/0/1734019323536?e=1736985600&v=beta&t=EUiLajoFaWSoZxdq8hb4XHJMvX6czQyhD_4I8kI-3hQ)
