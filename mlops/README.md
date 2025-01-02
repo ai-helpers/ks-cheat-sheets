@@ -35,6 +35,12 @@
 
 xxx
 
+
+Sources:
+- [Youtube - MLOpsWorld](https://www.youtube.com/channel/UCvfUFYIYTbTgxKQNGc2zoqQ)
+- [Wind 4 Change - Design Thinking](https://wind4change.com/design-thinking-d-school-stanford-ideo-approach-methodology/?ref=dl-staging-website.ghost.io)
+- [DeepLearning AI - Andrew Ng AI Product](https://www.deeplearning.ai/the-batch/issue-279/)
+
 ## Project Management
 
 xxx
