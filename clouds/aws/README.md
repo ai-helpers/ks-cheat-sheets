@@ -10,7 +10,7 @@
 - [Blog - Use Bedrock tooling with SageMaker Jumpstart](https://aws.amazon.com/blogs/machinelearning//use-amazon-bedrock-tooling-with-amazon-sagemaker-jumpstart-models/)
 - [Blog - G6e support for SageMaker inference](https://aws.amazon.com/blogs/machinelearning/amazon-sagemaker-inference-now-supports-g6e-instances/)
 
-# AWS Courses (free)
+## AWS Courses (free)
 
 ## 1. Building Generative AI Applications on Amazon Bedrock
 - Build next-gen applications with Codex, GPT-3, LLMs
