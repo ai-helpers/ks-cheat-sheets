@@ -1,5 +1,21 @@
 # References
 
+# Table of Contents (ToC)
+
+- [References](#references)
+- [Table of Contents (ToC)](#table-of-contents-toc)
+  - [AWS Inference - Blog links](#aws-inference---blog-links)
+- [AWS Courses (free)](#aws-courses-free)
+  - [1. Building Generative AI Applications on Amazon Bedrock](#1-building-generative-ai-applications-on-amazon-bedrock)
+  - [2. Generative AI Learning Plan for Decision Makers](#2-generative-ai-learning-plan-for-decision-makers)
+  - [3. Introduction to Amazon CodeWhisperer](#3-introduction-to-amazon-codewhisperer)
+  - [4. Introduction to Generative AI](#4-introduction-to-generative-ai)
+  - [5. Amazon Transcribe - Getting Started](#5-amazon-transcribe---getting-started)
+  - [6. Fundamentals of Prompt Engineering](#6-fundamentals-of-prompt-engineering)
+  - [7. Building Language Models on AWS](#7-building-language-models-on-aws)
+  - [8. Low-Code Machine Learning on AWS](#8-low-code-machine-learning-on-aws)
+
+
 ## AWS Inference - Blog links
 - [Blog - SageMaker Inference Highspot page](https://aws.highspot.com/items/671814eaf8e8a0fb2ee30a20?lfrm=shp.0)
 - [Blog - Scale down down to zero](https://aws.amazon.com/blogs/machine-learning/unlock-costsavings-with-the-new-scale-down-to-zero-feature-in-amazon-sagemaker-inference/)
