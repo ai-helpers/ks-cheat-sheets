@@ -5,3 +5,5 @@
     - [Book - Why agents are the next frontier of generative AI?](https://media.licdn.com/dms/document/media/v2/D4E1FAQEZ7PUZ0d1qyg/feedshare-document-pdf-analyzed/B4EZPAygZ.H0Ac-/0/1734106290837?e=1736985600&v=beta&t=JGxItaVIBz4YdFV5O39mH4cRm9MWjSU6-d3EHWebq_8)
 - [LinkedIn - Agentic AI Frameworks & AutoGen](https://www.linkedin.com/feed/update/urn:li:activity:7273004216556703744?utm_source=share&utm_medium=member_desktop)
   - [Agentic AI Frameworks & AutoGen](https://media.licdn.com/dms/document/media/v2/D4E1FAQFjNADgjVlY9A/feedshare-document-pdf-analyzed/B4EZO7mr2rHEAc-/0/1734019323536?e=1736985600&v=beta&t=EUiLajoFaWSoZxdq8hb4XHJMvX6czQyhD_4I8kI-3hQ)
+- [Linkedin - Agentic Keynote/slides](https://www.linkedin.com/posts/cornellius-yudha-wijaya_agent-framework-and-autogen-activity-7273004022075199490-GIoq?utm_source=share&utm_medium=member_desktop)
+  - [Keynote/slide](https://media.licdn.com/dms/document/media/v2/D4E1FAQGAqK13SBspLg/feedshare-document-pdf-analyzed/B4EZO7lmZHHsAs-/0/1734019036698?e=1736985600&v=beta&t=H1KpBC4plhcpzN-yptuw-V3BRRif9UXg3cIm-9Ji0Uw)
