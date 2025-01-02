@@ -11,3 +11,4 @@
   - GenAI Guidelines: Outlines best practices for procurement, use, and training related to GenAI within the California state government: https://lnkd.in/gXzqrPPu
   - GenAI Toolkit: Provides guidance for state teams on procuring and evaluating GenAI use cases, aiming for responsible adoption of the technology: https://lnkd.in/gWTZGfS9
 - [LinkedIn - Federal Office for Information Security: Opportunities and risks of LLMs as a subset of generative AI](https://www.linkedin.com/posts/andreslehtmets_generative-ai-models-opportunities-and-activity-7184958015970701312-UdWf?utm_source=share&utm_medium=member_desktop)
+- [LinkedIn - Responsability & Accountability (AI roles) ](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_this-responsibility-matrix-is-from-the-excellent-activity-7275620677016023040-Zesb/?utm_source=share&utm_medium=member_ios)
