@@ -1,0 +1,13 @@
+# References
+
+- [LinkedIn - Determine your AI Act Risk Category](https://www.linkedin.com/posts/tea-musta%C4%87-44025b169_aiactseries-activity-7274363614445084672-yXUO?utm_source=share&utm_medium=member_desktop)
+- [LinkedIn - The AI Risk Repository](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_mit-risk-repository-activity-7229963345980706818-SsHs?utm_source=share&utm_medium=member_desktop)
+  - Paper: https://lnkd.in/gXV6fSDu
+  - Website: https://airisk.mit.edu/
+  - Online Spreadsheet: https://lnkd.in/g5ScKra4
+- [LinkedIn - Report from Partnership on AI](https://www.linkedin.com/posts/kevin-klyman_how-can-we-mitigate-risks-associated-with-activity-7226249722452131840-0put?utm_source=share&utm_medium=member_desktop)
+- [LinkedIn - NIST Risk Management Framework](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_nist-guidance-on-generative-ai-risk-management-activity-7190945607396515840-Xv5x?utm_source=share&utm_medium=member_desktop)
+- [LinkedIn - GenAI Guidelines for Public Sector Procurement, Uses, and Training](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_genai-risk-airiskassessment-activity-7189096736739549184-SwZ_?utm_source=share&utm_medium=member_desktop)
+  - GenAI Guidelines: Outlines best practices for procurement, use, and training related to GenAI within the California state government: https://lnkd.in/gXzqrPPu
+  - GenAI Toolkit: Provides guidance for state teams on procuring and evaluating GenAI use cases, aiming for responsible adoption of the technology: https://lnkd.in/gWTZGfS9
+- [LinkedIn - Federal Office for Information Security: Opportunities and risks of LLMs as a subset of generative AI](https://www.linkedin.com/posts/andreslehtmets_generative-ai-models-opportunities-and-activity-7184958015970701312-UdWf?utm_source=share&utm_medium=member_desktop)
