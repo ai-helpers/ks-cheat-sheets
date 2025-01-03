@@ -1,0 +1,89 @@
+model_list:
+  - model_name: anthropic-claude-sonnet-20240229-v1
+    litellm_params:
+      model: bedrock/anthropic.claude-3-sonnet-20240229-v1:0
+      aws_region_name: eu-west-1
+    model_info:
+      supports_function_calling: true
+      mode: completion
+  - model_name: anthropic-claude-3-haiku-20240307-v1
+    litellm_params:
+      model: bedrock/anthropic.claude-3-haiku-20240307-v1:0
+      aws_region_name: eu-west-1
+    model_info:
+      supports_function_calling: true
+      mode: completion
+  - model_name: mistral-mistral-7b-instruct-v0
+    litellm_params: 
+      model: bedrock/mistral.mistral-7b-instruct-v0:2
+      aws_region_name: eu-west-1
+    model_info:
+      mode: completion
+  - model_name: mistral-mixtral-8x7b-instruct-v0
+    litellm_params: 
+      model: bedrock/mistral.mixtral-8x7b-instruct-v0:1
+      aws_region_name: eu-west-1
+    model_info:
+      mode: completion
+  - model_name: anthropic-claude-3-5-sonnet-20240620-v1
+    litellm_params: 
+      model: bedrock/anthropic.claude-3-5-sonnet-20240620-v1:0
+      aws_region_name: eu-west-1
+    model_info:
+      mode: completion
+  - model_name: cohere-embed-multilingual-v3
+    litellm_params: 
+      model: bedrock/cohere.embed-multilingual-v3
+      aws_region_name: eu-west-1
+    model_info:
+      mode: embedding
+  - model_name: cohere-embed-english-v3
+    litellm_params: 
+      model: bedrock/cohere.embed-english-v3
+      aws_region_name: eu-west-1
+    model_info:
+      mode: embedding
+  - model_name: amazon-titan-embed-text-v1
+    litellm_params: 
+      model: bedrock/amazon.titan-embed-text-v1
+      aws_region_name: us-east-1
+    model_info:
+      mode: embedding
+  - model_name: amazon-titan-text-express-v1
+    litellm_params:
+      model: bedrock/amazon.titan-text-express-v1
+      aws_region_name: eu-west-1
+    model_info:
+      mode: completion
+  - model_name: anthropic-claude-3-opus-20240229-v1
+    litellm_params: 
+      model: bedrock/anthropic.claude-3-opus-20240229-v1:0
+      aws_region_name: us-east-1
+    model_info:
+      mode: completion
+  - model_name: us-amazon-nova-pro-v1
+    litellm_params:
+      model: bedrock/us.amazon.nova-pro-v1:0
+      aws_region_name: us-east-1
+  - model_name: databricks-meta-llama-3-1-70b-instruct
+    litellm_params:
+      model: databricks/databricks-meta-llama-3-1-70b-instruct
+      api_key: os.environ/DATABRICKS_API_KEY
+      api_base: os.environ/DATABRICKS_API_BASE
+  - model_name: databricks-meta-llama-3-1-70b-instruct
+    litellm_params:
+      model: databricks/databricks-meta-llama-3-1-70b-instruct
+      api_key: os.environ/DATABRICKS_API_KEY
+      api_base: os.environ/DATABRICKS_API_BASE
+
+litellm_settings:
+  drop_params: true
+  modify_params: true
+  num_retries: 3
+  default_fallbacks: ["mistral-mistral-7b-instruct-v0"]
+
+router_settings: 
+  routing_strategy: simple-shuffle
+  model_group_alias: {"gpt-4-fake": "anthropic-claude-3-haiku-20240307-v1", "gpt-3.5-turbo-fake": "anthropic-claude-3-haiku-20240307-v1"}
+  num_retries: 3
+  timeout: 30
