@@ -57,7 +57,7 @@ Focused on concepts, tools, and best practices for generative AI development.
 
 ## MLOps
 
-- [zenml](): xx
+- [zenml](mlops/zenml): xx
 
 ## Modeling
 Highlights tools and libraries for traditional and advanced machine learning tasks.
