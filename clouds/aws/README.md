@@ -5,15 +5,7 @@
 - [References](#references)
 - [Table of Contents (ToC)](#table-of-contents-toc)
   - [AWS Inference - Blog links](#aws-inference---blog-links)
-- [AWS Courses (free)](#aws-courses-free)
-  - [1. Building Generative AI Applications on Amazon Bedrock](#1-building-generative-ai-applications-on-amazon-bedrock)
-  - [2. Generative AI Learning Plan for Decision Makers](#2-generative-ai-learning-plan-for-decision-makers)
-  - [3. Introduction to Amazon CodeWhisperer](#3-introduction-to-amazon-codewhisperer)
-  - [4. Introduction to Generative AI](#4-introduction-to-generative-ai)
-  - [5. Amazon Transcribe - Getting Started](#5-amazon-transcribe---getting-started)
-  - [6. Fundamentals of Prompt Engineering](#6-fundamentals-of-prompt-engineering)
-  - [7. Building Language Models on AWS](#7-building-language-models-on-aws)
-  - [8. Low-Code Machine Learning on AWS](#8-low-code-machine-learning-on-aws)
+  - [AWS Courses (free)](#aws-courses-free)
 
 
 ## AWS Inference - Blog links
@@ -28,45 +20,11 @@
 
 ## AWS Courses (free)
 
-## 1. Building Generative AI Applications on Amazon Bedrock
-- Build next-gen applications with Codex, GPT-3, LLMs
-- Optimize for natural conversations
-- [Link](https://lnkd.in/eM4nRWaW)
-
-## 2. Generative AI Learning Plan for Decision Makers
-- Roadmap for identifying and defining the scope of GAI projects
-- Learn about responsible AI policies
-- [Link](https://lnkd.in/ekGRVWys)
-
-## 3. Introduction to Amazon CodeWhisperer
-- Code generation in multiple languages
-- AI pair programming
-- [Link](https://lnkd.in/eZFxyV8a)
-
-## 4. Introduction to Generative AI
-- Understand how models like DALL-E 3 work
-- Explore industry use cases and societal impacts
-- Get an overview of foundation models
-- [Link](https://lnkd.in/eZFxyV8a)
-
-## 5. Amazon Transcribe - Getting Started
-- Upload audio files and automatically transcribe them
-- Integrate speech into contact centers and systems
-- [Link](https://lnkd.in/eZe6KNNd)
-
-## 6. Fundamentals of Prompt Engineering
-- Design prompts to communicate desired behavior
-- Learn techniques for more advanced control
-- Adapt prompts for personalized conversational AI
-- [Link](https://lnkd.in/e8QgdFz7)
-
-## 7. Building Language Models on AWS
-- Distributed training for large language models
-- Fine-tuning models like GPT-3 for better relevance
-- [Link](https://lnkd.in/e6UsvekQ)
-
-## 8. Low-Code Machine Learning on AWS
-- Ingest, normalize, clean, and label data for ML models
-- Use SageMaker to train models without coding skills
-- Deploy trainable models into applications
-- [Link](https://lnkd.in/eUk-6sf4)
+- Building Generative AI Applications on Amazon Bedrock: [Link](https://lnkd.in/eM4nRWaW)
+- Generative AI Learning Plan for Decision Makers: [Link](https://lnkd.in/ekGRVWys)
+- Introduction to Amazon CodeWhisperer: [Link](https://lnkd.in/eZFxyV8a)
+- Introduction to Generative AI: [Link](https://lnkd.in/eZFxyV8a)
+- Amazon Transcribe - Getting Started: [Link](https://lnkd.in/eZe6KNNd)
+- Fundamentals of Prompt Engineering: [Link](https://lnkd.in/e8QgdFz7)
+- Building Language Models on AWS: [Link](https://lnkd.in/e6UsvekQ)
+- Low-Code Machine Learning on AWS: [Link](https://lnkd.in/eUk-6sf4)
