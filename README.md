@@ -11,7 +11,9 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [API](#api)
   - [Clouds](#clouds)
   - [Generative AI](#generative-ai)
+  - [MLOps](#mlops)
   - [Modeling](#modeling)
+  - [Python](#python)
   - [Trustworthy AI](#trustworthy-ai)
 
 # Overview
@@ -53,10 +55,20 @@ Focused on concepts, tools, and best practices for generative AI development.
 - [Tools:](generativeai/agents) xx
 - [Unified Interface:](generativeai/unified-interface) Implementing a single interface for interacting with multiple generative AI providers.
 
+## MLOps
+
+- [zenml](): xx
+
 ## Modeling
 Highlights tools and libraries for traditional and advanced machine learning tasks.
 - [sklearn](modeling/sklearn): Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
 - [skrub](modeling/skrub): A library for data preparation and cleaning tasks tailored for machine learning workflows.
+
+## Python
+
+- [UV](python/uv): xx
+- [poetry](python/poetry): xx
+- [pyenv](python/pyenv): xx
 
 ## Trustworthy AI
 Guidance on ensuring AI systems are fair, robust, explainable, and compliant with ethical principles and regulatory standards.
