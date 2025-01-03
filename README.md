@@ -9,23 +9,9 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 - [References](#references)
 - [Sections](#sections)
   - [API](#api)
-    - [FastAPI](#fastapi)
-    - [RAY](#ray)
   - [Clouds](#clouds)
-    - [AWS](#aws)
-    - [Azure](#azure)
-    - [GCP](#gcp)
-    - [OVH](#ovh)
-    - [Scaleway](#scaleway)
   - [Generative AI](#generative-ai)
-    - [Agents](#agents)
-    - [Hallucinations](#hallucinations)
-    - [Providers](#providers)
-    - [RAG](#rag)
-    - [Unified Interface](#unified-interface)
   - [Modeling](#modeling)
-    - [sklearn](#sklearn)
-    - [skrub](#skrub)
   - [Trustworthy AI](#trustworthy-ai)
 
 # Overview
@@ -42,56 +28,38 @@ A curated list of references, including official documentation, blogs, and resea
 ## API
 This section includes cheat sheets for popular frameworks and tools used for building APIs.
 
-### FastAPI
-A fast and efficient Python web framework for building RESTful APIs with automatic OpenAPI documentation.
-
-### RAY
-A distributed computing framework designed for scaling Python applications effortlessly, commonly used for machine learning workloads.
+- [FastAPI](api/fastapi): A fast and efficient Python web framework for building RESTful APIs with automatic OpenAPI documentation.
+- [Ray](api/ray): A distributed computing framework designed for scaling Python applications effortlessly, commonly used for machine learning workloads.
 
 ## Clouds
 Guidelines and tips for leveraging cloud platforms to develop and deploy AI solutions.
 
-### AWS
-Key services and best practices for using Amazon Web Services in AI projects.
-
-### Azure
-AI-related offerings from Microsoft Azure, including cognitive services and machine learning tools.
-
-### GCP
-Insights into Google Cloud Platform's AI capabilities, such as Vertex AI and BigQuery ML.
-
-### OVH
-Tips for utilizing OVHcloud for hosting AI workloads and storage solutions.
-
-### Scaleway
-Guides for leveraging Scaleway's cloud services in AI applications.
+- [AWS](clouds/aws): Key services and best practices for using Amazon Web Services in AI projects.
+- [Azure](clouds/azure):AI-related offerings from Microsoft Azure, including cognitive services and machine learning tools.
+- [GCP](clouds/gcp): Insights into Google Cloud Platform's AI capabilities, such as Vertex AI and BigQuery ML.
+- [OVH](clouds/ovh): Tips for utilizing OVHcloud for hosting AI workloads and storage solutions.
+- [Scaleway](clouds/scaleway): Guides for leveraging Scaleway's cloud services in AI applications.
 
 ## Generative AI
 Focused on concepts, tools, and best practices for generative AI development.
 
-### Agents
-Explanation of AI agents, their architectures, and use cases in automation and decision-making.
-
-### Hallucinations
-Understanding and mitigating hallucination risks in generative models.
-
-### Providers
-Comparative insights into popular generative AI providers and their APIs.
-
-### RAG
-Retrieval-Augmented Generation (RAG) techniques to combine generative models with knowledge retrieval.
-
-### Unified Interface
-Implementing a single interface for interacting with multiple generative AI providers.
+- [Agents:](generativeai/agents) Explanation of AI agents, their architectures, and use cases in automation and decision-making.
+- [Finetuning](generativeai/finetuning): xx
+- [Hallucinations:](generativeai/hallucinations) Understanding and mitigating hallucination risks in generative models.
+- [GenAI model](generativeai/genai-model-providers) providers: Comparative insights into popular generative AI providers and their APIs.
+- [Inference:](generativeai/inference) xxx
+- [RAG:](generativeai/agents) Retrieval-Augmented Generation (RAG) techniques to combine generative models with knowledge retrieval.
+- [Structure outputs:](generativeai/structured-outputs) xx
+- [Tools:](generativeai/agents) xx
+- [Unified Interface:](generativeai/unified-interface) Implementing a single interface for interacting with multiple generative AI providers.
 
 ## Modeling
 Highlights tools and libraries for traditional and advanced machine learning tasks.
-
-### sklearn
-Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
-
-### skrub
-A library for data preparation and cleaning tasks tailored for machine learning workflows.
+- [sklearn](modeling/sklearn): Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
+- [skrub](modeling/skrub): A library for data preparation and cleaning tasks tailored for machine learning workflows.
 
 ## Trustworthy AI
 Guidance on ensuring AI systems are fair, robust, explainable, and compliant with ethical principles and regulatory standards.
+
+- [airisk](trustworthyai/airisk): xx
+- [strategy](trustworthyai/strategy): xx
