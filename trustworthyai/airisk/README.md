@@ -1,5 +1,6 @@
 # References
 
+- [Monetary Authority Singapore - Third-Party Risk Management](https://www.mas.gov.sg/regulation/third-party-risk-management)
 - [LinkedIn - Determine your AI Act Risk Category](https://www.linkedin.com/posts/tea-musta%C4%87-44025b169_aiactseries-activity-7274363614445084672-yXUO?utm_source=share&utm_medium=member_desktop)
 - [LinkedIn - The AI Risk Repository](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_mit-risk-repository-activity-7229963345980706818-SsHs?utm_source=share&utm_medium=member_desktop)
   - Paper: https://lnkd.in/gXV6fSDu
