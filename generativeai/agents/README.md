@@ -1,5 +1,8 @@
 # References
 
+- [Github - Bee Agent Framework](https://github.com/i-am-bee/bee-agent-framework)
+- [AWS Labs Github - Multi-Agent Orchestrator](https://awslabs.github.io/multi-agent-orchestrator/)
+  - [AWS Labs Github - AWS Lambda Python with Multi-Agent Orchestrator](https://awslabs.github.io/multi-agent-orchestrator/cookbook/lambda/aws-lambda-python/)
 - [Linkedin - AI Agents vs not AI Agent](https://www.linkedin.com/posts/rakeshgohel01_most-people-think-ai-agents-are-just-glorified-activity-7272981562130874368-z3Pe?utm_source=share&utm_medium=member_desktop)
 - [Linkedin - McKinsey & QuantumBlack: Why agents are the next frontier of generative AI](https://www.linkedin.com/posts/kierangilmurray_httpslnkdinedvuwsg-activity-7274004017339412480-YX8v?utm_source=share&utm_medium=member_desktop)
     - [Book - Why agents are the next frontier of generative AI?](https://media.licdn.com/dms/document/media/v2/D4E1FAQEZ7PUZ0d1qyg/feedshare-document-pdf-analyzed/B4EZPAygZ.H0Ac-/0/1734106290837?e=1736985600&v=beta&t=JGxItaVIBz4YdFV5O39mH4cRm9MWjSU6-d3EHWebq_8)
