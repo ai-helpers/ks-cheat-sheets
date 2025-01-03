@@ -1,5 +1,6 @@
 # References
 
+- [WEF Report - Navigating to the AI Frontier 2024](https://reports.weforum.org/docs/WEF_Navigating_the_AI_Frontier_2024.pdf)
 - [LinkedIn - Tech Leaders: Future of AI-Driven](https://www.linkedin.com/posts/lewiswalkerai_bcg-ai-playbook-for-tech-leaders-ugcPost-7275495094483345408-OAZV/?utm_source=share&utm_medium=member_ios)
   - https://media-publications.bcg.com/BCG-Executive-Perspectives-GenAI-in-Data-and-Digital-Platforms-EP6-14Nov2024.pdf
 - [Linkedin - MIT Technology Review Insights](https://www.linkedin.com/posts/ugcPost-7273070814592221184-atOd/?utm_source=share&utm_medium=member_ios)
