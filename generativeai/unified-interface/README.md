@@ -24,3 +24,4 @@
 ## Gateway
 - [Github - Gateway](https://github.com/Portkey-AI/gateway)
 - [Walmart article - Transforming Ecommerce Search with Generative AI insights from walmarts journey](https://portkey.ai/blog/transforming-e-commerce-search-with-generative-ai-insights-from-walmarts-journey/)
+- [Arxiv article from Walmart - Semantic Retrieval at Walmart](https://arxiv.org/pdf/2412.04637)
