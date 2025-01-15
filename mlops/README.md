@@ -37,6 +37,7 @@ Sources:
 ## Principe of ML Operations
 
 ![image](https://github.com/user-attachments/assets/37495488-32c2-44d6-a647-ee0f719da664)
+_Figure: strongly inspired from [data-engineering-helpers/architecture-principles](https://github.com/data-engineering-helpers/architecture-principles?tab=readme-ov-file#data-engineering)_
 
 ## Project Management
 
