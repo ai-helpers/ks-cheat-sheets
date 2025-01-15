@@ -34,6 +34,10 @@ Sources:
   - https://github.com/dktunited/.github/blob/5a0f62cdec0d311d0583f97892b7cbc38b794db0/.github/workflows/build-maven-docker.yaml#L111
   - https://spdx.dev/use/spdx-tools/
 
+## Principe of ML Operations
+
+![image](https://github.com/user-attachments/assets/37495488-32c2-44d6-a647-ee0f719da664)
+
 ## Project Management
 
 POC | MVP | Pilot | Run
@@ -60,23 +64,21 @@ Most of all, it is an engineering practice that leverages three contributing dis
 
 Essentially, MLOps aims to facilitate the creation of machine learning products by leveraging these principles: 
 
-1. Versioning: versioning ensures the versioning of data (with delta), model (with mlflow model registry) and code (with Github) to enable not only reproducibility, but also traceability (for compliance and audit reasons).
-2. Collaboration: collaboration ensures the possibility to work collaboratively on data, model and code. Besides the technical aspect, this principle emphasize a collaborative and communicative work culture aiming to reduce domain silos between different roles.
+**1. Versioning:** versioning ensures the versioning of data (with delta), model (with mlflow model registry) and code (with Github) to enable not only reproducibility, but also traceability (for compliance and audit reasons).
+**2. Collaboration:** collaboration ensures the possibility to work collaboratively on data, model and code. Besides the technical aspect, this principle emphasize a collaborative and communicative work culture aiming to reduce domain silos between different roles.
 To do so, make sure to use the same git workflow mechanism with your partners.
-3. Testing: Testing can ensure its quality by verifying that it meets the desired specifications, functionality, and performance requirements. This can help detect bugs, errors, or vulnerabilities before the code is deployed, reducing the likelihood of failures or security breaches. It should be covering all the aspects of our ML systems, including the code but also the data and models.
+**3. Testing:** Testing can ensure its quality by verifying that it meets the desired specifications, functionality, and performance requirements. This can help detect bugs, errors, or vulnerabilities before the code is deployed, reducing the likelihood of failures or security breaches. It should be covering all the aspects of our ML systems, including the code but also the data and models.
 Similarly, a shoe manufacturer can ensure the quality of their products by performing tests on different aspects such as the materials used, durability, and comfort. These tests can help identify any defects or issues before the shoes are shipped to customers, ensuring that they meet the required standards of quality and safety.
-4. Automation
-  - 4.1. CICD: CICD automation proceeds continuous integration (e.g. package, code readability, tests coverage), continuous delivery and the continuous deployment. It carries out the build, test, delivery and deploy steps.
+**4. Automation**
+  - _4.1. CICD:_ CICD automation proceeds continuous integration (e.g. package, code readability, tests coverage), continuous delivery and the continuous deployment. It carries out the build, test, delivery and deploy steps.
   It provides fast feedback to developers regarding the success or failure of certain steps, thus increasing the overall productivity.
-  - 4.2. Orchestration and scheduling: workflow orchestration coordinates the tasks of an ML workflow pipeline according to directed acyclic graphs (DAGs). DAGs define the task execution order by considering relationships and dependencies.
-  - 4.3. CT (optional): continuous training means periodic or trigger a retraining of the ML model based on new feature data. CT is enabled through the support of a monitoring component, feedback loop and an automated ML workflow pipeline. Continuous training always includes an evaluation run  to access the change in model quality.
-5. Reproducibility: reproducibility is the ability to reproduce an ML experiment or rollback to a previous version in order to obtain the exact same results.
-6. Tracking and logging: track and log each orchestrated ML workflow task. Tracking and logging is required for each training job iteration (e.g. training date and time, duration) including the model specific metadata (e.g. used parameters and the resulting performance metrics, model lineage : data and code used) to ensure the full traceability of experiments run.
-
-7. Continuous monitoring: Continuous monitoring implies the periodic assessment of data, mode, code, infrastructure resources, and model serving performance (e.g. prediction accuracy) to detect potential errors or changes that influence the product quality.
+  - _4.2. Orchestration and scheduling:_ workflow orchestration coordinates the tasks of an ML workflow pipeline according to directed acyclic graphs (DAGs). DAGs define the task execution order by considering relationships and dependencies.
+  - _4.3. CT (optional):_ continuous training means periodic or trigger a retraining of the ML model based on new feature data. CT is enabled through the support of a monitoring component, feedback loop and an automated ML workflow pipeline. Continuous training always includes an evaluation run  to access the change in model quality.
+5. **Reproducibility:** reproducibility is the ability to reproduce an ML experiment or rollback to a previous version in order to obtain the exact same results.
+6. **Tracking and logging:** track and log each orchestrated ML workflow task. Tracking and logging is required for each training job iteration (e.g. training date and time, duration) including the model specific metadata (e.g. used parameters and the resulting performance metrics, model lineage : data and code used) to ensure the full traceability of experiments run.
+**7. Continuous monitoring:** Continuous monitoring implies the periodic assessment of data, mode, code, infrastructure resources, and model serving performance (e.g. prediction accuracy) to detect potential errors or changes that influence the product quality.
 Where Testing ensures that the system (code, data and models) respects the expectations set offline (Build), Monitoring will rather ensure that the system continues to pass these expectations live in a production environment (Run)
-
-8. Feedback loops: Multiple feedback loops are required to integrate insights from the quality assessment step into the development or engineering process. 
+**8. Feedback loops:** Multiple feedback loops are required to integrate insights from the quality assessment step into the development or engineering process. 
 Production deployment (canary, shadow, blue/green deployment) and online experimentation (e.g. A/B Testing, Smoke testing, MAB testing) are solution in order to collect feedback.
 Another feedback loop from the monitoring component (e.g. observing the model, serving performance) to the scheduler to enable the retraining.
 
