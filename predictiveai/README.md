@@ -1,8 +1,8 @@
-# Knowledge sharing sheets - Modeling
+# Knowledge sharing sheets - Predictive AI
 
 # Table of Contents (ToC)
 
-- [Knowledge sharing sheets - Modeling](#knowledge-sharing-sheets---modeling)
+- [Knowledge sharing sheets - Predictive AI](#knowledge-sharing-sheets---predictive-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [General python modules](#general-python-modules)
 - [Forecasting](#forecasting)
