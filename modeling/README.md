@@ -7,6 +7,7 @@
 - [General python modules](#general-python-modules)
 - [Forecasting](#forecasting)
 - [Text-to-video](#text-to-video)
+- [Reinforcement Learning (RL)](#reinforcement-learning-rl)
 - [Ressources](#ressources)
 
 # General python modules
@@ -35,6 +36,10 @@
 # Text-to-video
 
 - [TransPixar](https://github.com/wileewang/TransPixar): pipeline designed to support various video tasks, including Text-to-RGBA Video, Image-to-RGBA Video.
+
+# Reinforcement Learning (RL)
+
+- [Keynote - Introduction to reinforcement learning](https://media.licdn.com/dms/document/media/v2/D561FAQFyDm3Dv2WYbw/feedshare-document-pdf-analyzed/B56ZRqtzXKGsAY-/0/1736957199215?e=1738195200&v=beta&t=lGcQVeECLXH5pPtvVxcA_mjXl0TL_vLVrwhDIWUwFM0)
 
 # Ressources
 
