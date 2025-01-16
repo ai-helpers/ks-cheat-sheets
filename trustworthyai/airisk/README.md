@@ -13,3 +13,7 @@
   - GenAI Toolkit: Provides guidance for state teams on procuring and evaluating GenAI use cases, aiming for responsible adoption of the technology: https://lnkd.in/gWTZGfS9
 - [LinkedIn - Federal Office for Information Security: Opportunities and risks of LLMs as a subset of generative AI](https://www.linkedin.com/posts/andreslehtmets_generative-ai-models-opportunities-and-activity-7184958015970701312-UdWf?utm_source=share&utm_medium=member_desktop)
 - [LinkedIn - Responsability & Accountability (AI roles) ](https://www.linkedin.com/posts/katharina-koerner-privacyengineering_this-responsibility-matrix-is-from-the-excellent-activity-7275620677016023040-Zesb/?utm_source=share&utm_medium=member_ios)
+- Tools and Framework
+  - [COMPL-AI Framework](https://arxiv.org/abs/2410.07959): A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act
+    - [Website](https://compl-ai.org/)
+  - [Gregoire M - Lnkd Post](https://www.linkedin.com/posts/gregoire-martinon_peut-on-traduire-lai-act-en-exigences-activity-7282297478995927040--32Y/?utm_source=share&utm_medium=member_ios)
