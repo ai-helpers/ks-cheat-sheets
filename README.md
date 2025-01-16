@@ -12,7 +12,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [Clouds](#clouds)
   - [Generative AI](#generative-ai)
   - [MLOps](#mlops)
-  - [Modeling](#modeling)
+  - [Predictive AI](#predictive-ai)
   - [Python](#python)
   - [Trustworthy AI](#trustworthy-ai)
 
@@ -59,12 +59,12 @@ Focused on concepts, tools, and best practices for generative AI development.
 
 - [zenml](mlops/zenml): xx
 
-## Modeling
+## [Predictive AI](/predictiveai/README.md)
 Highlights tools and libraries for traditional and advanced machine learning tasks.
 - [sklearn](modeling/sklearn): Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
 - [skrub](modeling/skrub): A library for data preparation and cleaning tasks tailored for machine learning workflows.
 
-## Python
+## [Python](/python/)
 
 - [UV](python/uv): xx
 - [poetry](python/poetry): xx
