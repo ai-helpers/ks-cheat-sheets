@@ -3,3 +3,34 @@
 - [AWS Blog - RAG evaluation with LLM as a judge](https://aws.amazon.com/fr/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/)
 - [Github - RAGAS](https://github.com/explodinggradients/ragas)
 - [DeepLearningAI - Safe and reliable AI via guardrails](https://learn.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails/lesson/3/what-are-guardrails)
+- [Keynote - Evaluating LLM Models for Production Systems: Methods and Practices](https://media.licdn.com/dms/document/media/v2/D561FAQF1A-DYl_O1kg/feedshare-document-pdf-analyzed/B56ZQ6Pet6GoAc-/0/1736143936684?e=1738195200&v=beta&t=kO2wNqbtAgPT2jvHrvunLTt_n4jSNQowaMKaiGnLcVo)
+  - [Wide variety of tasks is a typical for use patterns of LLMs in every business](https://aclanthology.org/2022.emnlp-main.340.pdf)
+  - [LLM evaluation]()
+    - [MEASURING MASSIVE MULTITASK LANGUAGE UNDERSTANDING](https://arxiv.org/pdf/2009.03300)
+    - [PROXYQA: An Alternative Framework for Evaluating Long-Form Text Generation with Large Language Models](https://arxiv.org/pdf/2401.15042)
+    - [TrustLLM](https://arxiv.org/pdf/2401.05561)
+    - [TrustScore](https://arxiv.org/pdf/2402.12545)
+    - [Reasoning tasks, requires specific evaluation (ex ConceptArc)](https://arxiv.org/abs/2311.09247)
+    - [Multi turn tasks, requires a specific evaluation (ex LMRL Gym)](https://arxiv.org/abs/2311.18232)
+    - [Instruction following](https://arxiv.org/pdf/2310.07641.pdf)
+  - [Embedding vs LLM - Generative Representational Instruction Tuning](https://arxiv.org/pdf/2402.09906)
+    - [LLM Embedding evaluation - MTEB (Massive Text Embedding Benchmark)](https://arxiv.org/pdf/2210.07316), [Huggingface leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
+    - In Context Learning (ICL) evaluation: [HellaSwag](https://rowanzellers.com/hellaswag/), [OpenICL article](https://arxiv.org/pdf/2303.02913)
+  - [LLM as a judge](https://arxiv.org/pdf/2306.05685): MT-bench & Chatbot Arena
+  - RAG Evaluation:
+    - [RAG Evaluation - RAGAs](https://arxiv.org/abs/2309.15217), [Github - Python module](https://docs.ragas.io/en/stable/)
+    - [RAG Evaluation - ARES](https://arxiv.org/pdf/2311.09476), [Github - python module](https://github.com/stanford-futuredata/ARES)
+    - [RAG Evaluation - HumanEval](https://arxiv.org/pdf/2107.03374), [Github - python code](https://github.com/openai/human-eval)
+  - [Hallucination Evaluation - HaluEval](https://aclanthology.org/2023.emnlp-main.397.pdf)
+  - Pairwise comparaison - Arenas: 
+    - [Chatbot arena for generic user tasks](https://chat.lmsys.org/)
+    - [Negotiation area for negotiation tasks](https://arxiv.org/pdf/2402.05863.pdf)
+    - [A paper from Cohere about model ranking based on tournaments](https://arxiv.org/pdf/2311.17295.pdf)
+  - Hardness Evaluation:
+    - EleutherAI/lm-evaluation-harness, very powerful, for zero and few short tasks
+    - OpenAI Evals
+    - bigcode-project/bigcode-evaluation-harness, code evaluation tasks
+    - MLFlow LLM Evaluate , integrated with ML Flow,
+    - MosaicML Composer, icl tasks, superfast, scaling to multi gpu
+    - RAGAs for LLM based evaluation https://docs.ragas.io/en/latest/
+    - TruLens
