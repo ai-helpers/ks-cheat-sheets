@@ -17,3 +17,5 @@
   - [COMPL-AI Framework](https://arxiv.org/abs/2410.07959): A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act
     - [Website](https://compl-ai.org/)
   - [Gregoire M - Lnkd Post](https://www.linkedin.com/posts/gregoire-martinon_peut-on-traduire-lai-act-en-exigences-activity-7282297478995927040--32Y/?utm_source=share&utm_medium=member_ios)
+- Red Teaming
+  - [Microsoft AI Red Team - Lessons from red teaming 100 generative AI products](https://media.licdn.com/dms/document/media/v2/D4D1FAQEmE2bx-rNoZw/feedshare-document-pdf-analyzed/B4DZRlo0joHUAY-/0/1736871998106?e=1738195200&v=beta&t=xVQ8NRE4o6zKRr2mdD59uya5p8u11GQM45T5jE4Fmcc)
