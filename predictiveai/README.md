@@ -32,7 +32,7 @@
 - [Github - Prophet](https://github.com/facebook/prophet): designed for users with limited statistical knowledge, allowing them to easily handle seasonal effects and missing data. Its intuitive interface makes it accessible for business applications requiring quick and interpretable forecasts.
 - [Github - SKtime](https://github.com/sktime/sktime) provides a scikit-learn-compatible framework for time series analysis, enabling users to apply machine learning techniques seamlessly. This integration allows for easy model tuning, validation, and deployment using familiar tools. You can also easily use embedded scikit-learn data transformers for feature generation
 - [Github - GluonTS](https://github.com/jgasthaus/gluon-ts) is focused on probabilistic forecasting, allowing users to generate not just point forecasts but also confidence intervals. 
-
+- [Article - Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/pdf/2412.20512)
 # Text-to-video
 
 - [TransPixar](https://github.com/wileewang/TransPixar): pipeline designed to support various video tasks, including Text-to-RGBA Video, Image-to-RGBA Video.
