@@ -3,6 +3,7 @@
 - [AWS Blog - RAG evaluation with LLM as a judge](https://aws.amazon.com/fr/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/)
 - [Github - RAGAS](https://github.com/explodinggradients/ragas)
 - [DeepLearningAI - Safe and reliable AI via guardrails](https://learn.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails/lesson/3/what-are-guardrails)
+- [Linkedin - Evaluation](https://www.linkedin.com/posts/techsachinkumar_evaluating-and-aligning-code-generation-llms-activity-7271856819545772033-bVc9/?utm_source=share&utm_medium=member_ios)
 - [Keynote - Evaluating LLM Models for Production Systems: Methods and Practices](https://media.licdn.com/dms/document/media/v2/D561FAQF1A-DYl_O1kg/feedshare-document-pdf-analyzed/B56ZQ6Pet6GoAc-/0/1736143936684?e=1738195200&v=beta&t=kO2wNqbtAgPT2jvHrvunLTt_n4jSNQowaMKaiGnLcVo)
   - [Wide variety of tasks is a typical for use patterns of LLMs in every business](https://aclanthology.org/2022.emnlp-main.340.pdf)
   - [LLM evaluation]()
