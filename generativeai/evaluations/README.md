@@ -35,3 +35,4 @@
     - MosaicML Composer, icl tasks, superfast, scaling to multi gpu
     - RAGAs for LLM based evaluation https://docs.ragas.io/en/latest/
     - TruLens
+- [Lnkd Gregoire M - Incertitude LLM](https://www.linkedin.com/posts/gregoire-martinon_comment-mesurer-lincertitude-des-llms-activity-7272150576518377472-EBlT/?utm_source=share&utm_medium=member_ios)
