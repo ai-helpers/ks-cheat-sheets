@@ -26,6 +26,7 @@ Sources:
 
 ## Articles 
 - [RICE - priorization framework](https://marily.substack.com/p/rice-a-a-prioritization-framework?utm_source=post-email-title&publication_id=547073&post_id=155290254&utm_campaign=email-post-title&isFreemail=true&r=1gsxm1&triedRedirect=true&utm_medium=email)
+- [Keynote - ML Engineering rules)(https://media.licdn.com/dms/document/media/v2/D4D1FAQFyZb9o5dsizw/feedshare-document-pdf-analyzed/feedshare-document-pdf-analyzed/0/1732900953798?e=1738195200&v=beta&t=EVTcodB7NwaJXHqLieI8UO3uN9VVu6DwSYvaeMpoaIo)
 
 ## Standards - SPDX
 
@@ -85,5 +86,4 @@ Where Testing ensures that the system (code, data and models) respects the expec
 **8. Feedback loops:** Multiple feedback loops are required to integrate insights from the quality assessment step into the development or engineering process. 
 Production deployment (canary, shadow, blue/green deployment) and online experimentation (e.g. A/B Testing, Smoke testing, MAB testing) are solution in order to collect feedback.
 Another feedback loop from the monitoring component (e.g. observing the model, serving performance) to the scheduler to enable the retraining.
-
-9. A/B Testing: xxx
+**9. A/B Testing: xxx**
