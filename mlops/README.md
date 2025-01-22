@@ -24,6 +24,9 @@ Sources:
 
 - [LinkedIn Learning -  MLOps with Databricks](https://www.linkedin.com/learning/mlops-with-databricks)
 
+## Articles 
+- [RICE - priorization framework](https://marily.substack.com/p/rice-a-a-prioritization-framework?utm_source=post-email-title&publication_id=547073&post_id=155290254&utm_campaign=email-post-title&isFreemail=true&r=1gsxm1&triedRedirect=true&utm_medium=email)
+
 ## Standards - SPDX
 
 - SPDX AI: https://spdx.dev/learn/areas-of-interest/ai/
