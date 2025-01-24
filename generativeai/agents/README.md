@@ -12,3 +12,4 @@
   - [Keynote/slide](https://media.licdn.com/dms/document/media/v2/D4E1FAQGAqK13SBspLg/feedshare-document-pdf-analyzed/B4EZO7lmZHHsAs-/0/1734019036698?e=1736985600&v=beta&t=H1KpBC4plhcpzN-yptuw-V3BRRif9UXg3cIm-9Ji0Uw)
 - [Huggingface - SmolAgents](https://huggingface.co/blog/smolagents)
   - [Keynote/slide](https://media.licdn.com/dms/document/media/v2/D561FAQHwYxX7KLUU7A/feedshare-document-pdf-analyzed/B56ZRqgzlPGoAY-/0/1736953780301?e=1737590400&v=beta&t=Iz2Yn3OvdNGzq-49feRQSoiuO5VzsMbBSOl2_XC_Gbk)
+- [Github - Anthropic cookbook AI Agent](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
