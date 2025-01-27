@@ -37,3 +37,49 @@
     - TruLens
 - [Lnkd Gregoire M - Incertitude LLM](https://www.linkedin.com/posts/gregoire-martinon_comment-mesurer-lincertitude-des-llms-activity-7272150576518377472-EBlT/?utm_source=share&utm_medium=member_ios)
 - [Practical Guide - LLM as a Judge](https://media.licdn.com/dms/document/media/v2/D561FAQGDS007DinjBw/feedshare-document-pdf-analyzed/feedshare-document-pdf-analyzed/0/1733838335869?e=1738195200&v=beta&t=0x3wvxWPFBxOkAm2HuNk13grh7CH5fXeo1AVAhB0f4w)
+
+# HELM
+## What is HELM?
+
+Sources: [GitHub](https://github.com/stanford-crfm/helm), [Arxiv oct 23 - Holistic Evaluation of Language Models](https://arxiv.org/pdf/2211.09110)
+
+Published by Stanford's Center for Research on Foundation Models, HELM—the **Holistic Evaluation of Language Models**—is your compass through the maze of the complex LLM evaluation.
+
+### Why it matters:
+
+- ✸ **Comprehensive Evaluation:** HELM evaluates 30 prominent LLMs across 42 scenarios and 7 essential metrics, covering accuracy, fairness, robustness, and more.
+- ✸ **Reveals Blind Spots:** It identifies blind spots and trade-offs across models and scenarios, ensuring you make informed choices.
+- ✸ **Open Data:** All evaluation data is public—empowering the community to dive deeper and innovate further.
+
+---
+
+## What Makes HELM Distinguished?
+
+### ✸ **Broad Coverage**  
+HELM explores 16 core scenarios like question answering, summarization, sentiment analysis, and toxicity detection. Beyond that, it delves into 7 targeted evaluations (e.g., reasoning and bias).
+
+### ✸ **Multi-Metric Evaluation**  
+Accuracy isn’t the sole focus. HELM assesses LLMs using:  
+- ☆ **Calibration:** How confident is the model in its predictions?  
+- ☆ **Robustness:** Does it handle typos and dialects gracefully?  
+- ☆ **Fairness:** Are all groups treated equitably?  
+
+### ✸ **Standardization**  
+HELM levels the playing field by benchmarking all 30 models—ranging from OpenAI’s GPT series to Meta’s OPT—under consistent conditions.
+
+---
+
+## The Highs and Lows of LLMs
+
+- ✸ **Instruction-Tuning Rules:** Models like OpenAI’s *text-davinci-002* excel in accuracy and fairness due to their training, which prioritizes user-friendly instructions.  
+- ✸ **Closed vs. Open Models:** Closed models generally outperform open ones, but open models like *BLOOM* are quickly narrowing the gap.  
+- ✸ **Trade-offs Everywhere:** Improving one metric often sacrifices another. For example:
+
+---
+
+# Challenges and Future Directions
+
+Despite HELM’s comprehensive approach, challenges remain:  
+- ✸ **Dynamic Benchmarks:** Keeping benchmarks up-to-date as LLMs evolve.  
+- ✸ **Scalability:** Ensuring evaluations remain feasible as the number of models grows.  
+- ✸ **Ethical Considerations:** Addressing the broader impact of LLMs on society.
