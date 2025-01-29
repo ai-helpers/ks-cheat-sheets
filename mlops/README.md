@@ -23,6 +23,13 @@ Sources:
 ## Courses
 
 - [LinkedIn Learning -  MLOps with Databricks](https://www.linkedin.com/learning/mlops-with-databricks)
+- [Coursera - Machine Learning in Production by DeepLearning.AI](https://www.coursera.org/learn/introduction-to-machine-learning-in-production): introduction to building ML Production Systems, covering topics such as modeling strategies, pipeline monitoring, experiment tracking, and data augmentation. 
+- [Made with ML by Goku Mohandas](https://madewithml.com/) | [GitHub](https://github.com/GokuMohandas/Made-With-ML)
+- [The Full Stack](https://fullstackdeeplearning.com/): build ML Systems with a hands-on approach. Amazing content, amazing interviews, and if you are interested in LLMs, you can't miss the LLM Bootcamp!
+- [Book - Designing Machine Learning Systems](https://www.amazon.fr/Designing-Machine-Learning-Systems-Production-ready/dp/1098107969)
+- [Book - Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+- [Book - AI Engineering](https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302)
+
 
 ## Articles 
 - [RICE - priorization framework](https://marily.substack.com/p/rice-a-a-prioritization-framework?utm_source=post-email-title&publication_id=547073&post_id=155290254&utm_campaign=email-post-title&isFreemail=true&r=1gsxm1&triedRedirect=true&utm_medium=email)
@@ -88,3 +95,4 @@ Where Testing ensures that the system (code, data and models) respects the expec
 Production deployment (canary, shadow, blue/green deployment) and online experimentation (e.g. A/B Testing, Smoke testing, MAB testing) are solution in order to collect feedback.
 Another feedback loop from the monitoring component (e.g. observing the model, serving performance) to the scheduler to enable the retraining.
 **9. A/B Testing: xxx**
+
