@@ -6,7 +6,9 @@
 - [Table of Contents (ToC)](#table-of-contents-toc)
   - [Overview](#overview)
   - [Courses](#courses)
+  - [Articles](#articles)
   - [Standards - SPDX](#standards---spdx)
+  - [Principe of ML Operations](#principe-of-ml-operations)
   - [Project Management](#project-management)
   - [Roles overview](#roles-overview)
   - [Roles description](#roles-description)
@@ -77,12 +79,12 @@ Most of all, it is an engineering practice that leverages three contributing dis
 
 Essentially, MLOps aims to facilitate the creation of machine learning products by leveraging these principles: 
 
-**1. Versioning:** versioning ensures the versioning of data (with delta), model (with mlflow model registry) and code (with Github) to enable not only reproducibility, but also traceability (for compliance and audit reasons).
-**2. Collaboration:** collaboration ensures the possibility to work collaboratively on data, model and code. Besides the technical aspect, this principle emphasize a collaborative and communicative work culture aiming to reduce domain silos between different roles.
+1. **Versioning:** versioning ensures the versioning of data (with delta), model (with mlflow model registry) and code (with Github) to enable not only reproducibility, but also traceability (for compliance and audit reasons).
+2. **Collaboration:** collaboration ensures the possibility to work collaboratively on data, model and code. Besides the technical aspect, this principle emphasize a collaborative and communicative work culture aiming to reduce domain silos between different roles.
 To do so, make sure to use the same git workflow mechanism with your partners.
-**3. Testing:** Testing can ensure its quality by verifying that it meets the desired specifications, functionality, and performance requirements. This can help detect bugs, errors, or vulnerabilities before the code is deployed, reducing the likelihood of failures or security breaches. It should be covering all the aspects of our ML systems, including the code but also the data and models.
+3. **Testing:** Testing can ensure its quality by verifying that it meets the desired specifications, functionality, and performance requirements. This can help detect bugs, errors, or vulnerabilities before the code is deployed, reducing the likelihood of failures or security breaches. It should be covering all the aspects of our ML systems, including the code but also the data and models.
 Similarly, a shoe manufacturer can ensure the quality of their products by performing tests on different aspects such as the materials used, durability, and comfort. These tests can help identify any defects or issues before the shoes are shipped to customers, ensuring that they meet the required standards of quality and safety.
-**4. Automation**
+4.  **Automation**
   - _4.1. CICD:_ CICD automation proceeds continuous integration (e.g. package, code readability, tests coverage), continuous delivery and the continuous deployment. It carries out the build, test, delivery and deploy steps.
   It provides fast feedback to developers regarding the success or failure of certain steps, thus increasing the overall productivity.
   - _4.2. Orchestration and scheduling:_ workflow orchestration coordinates the tasks of an ML workflow pipeline according to directed acyclic graphs (DAGs). DAGs define the task execution order by considering relationships and dependencies.

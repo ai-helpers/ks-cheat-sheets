@@ -24,7 +24,7 @@ Tuto:
 
 - Résultats:
 
-![alt text](image.png)
+![alt text](_static/image.png)
 
 - Notes:
     - **Output Token Throughput (graphique en rouge):** La vitesse de génération progresse régulièrement avec la concurrence, atteignant environ 45 tokens/seconde en pic.

@@ -35,7 +35,7 @@ Ray is a high-performance distributed computing framework designed to scale Pyth
 
 A ray cluster is a set of worker nodes connected to a common Ray Head Node. Ray nodes are pods in a kubernetes cluster. Ray clusters can be fixed-size, or the may autoscale up and down according to the ressources requested by applications running on the cluster. 
 
-![alt text](image.png)
+![alt text](_static/image.png)
 
 Ray head node
 Every Ray cluster has one node which is designated as the head node of the cluster. The head node is identical to other worker nodes, except that it also runs singleton processes responsible for cluster management such as the autoscaler, GCS (Global Control Service) and the Ray dashboard.
@@ -46,7 +46,7 @@ Worker nodes do not run any head node management processes, and serve only to ru
 Ray dashboard
 Ray provides a web-based dashboard for monitoring and debugging Ray applications. The visual representation of the system state, allows users to track the performance of applications and troubleshoot issues.
 
-![alt text](image-1.png)
+![alt text](_static/image-1.png)
 
 ### Ray Service
 
