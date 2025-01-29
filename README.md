@@ -11,6 +11,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [API](#api)
   - [Clouds](#clouds)
   - [Generative AI](#generative-ai)
+  - [Git](#git)
   - [MLOps](#mlops)
   - [Predictive AI](#predictive-ai)
   - [Python](#python)
@@ -46,14 +47,21 @@ Guidelines and tips for leveraging cloud platforms to develop and deploy AI solu
 Focused on concepts, tools, and best practices for generative AI development.
 
 - [Agents:](generativeai/agents) Explanation of AI agents, their architectures, and use cases in automation and decision-making.
+  - [agentarium](generativeai/agents/agentarium/)
+  - [autogen](generativeai/agents/autogen/)
+- [Evaluation](generativeai/evaluations/)
 - [Finetuning](generativeai/finetuning): xx
+- [genai-model-providers](generativeai/genai-model-providers/): Comparative insights into popular generative AI providers and their APIs.
 - [Hallucinations:](generativeai/hallucinations) Understanding and mitigating hallucination risks in generative models.
-- [GenAI model](generativeai/genai-model-providers) providers: Comparative insights into popular generative AI providers and their APIs.
 - [Inference:](generativeai/inference) xxx
 - [RAG:](generativeai/agents) Retrieval-Augmented Generation (RAG) techniques to combine generative models with knowledge retrieval.
 - [Structure outputs:](generativeai/structured-outputs) xx
 - [Tools:](generativeai/agents) xx
 - [Unified Interface:](generativeai/unified-interface) Implementing a single interface for interacting with multiple generative AI providers.
+  - [aisuite](generativeai/unified-interface/aisuite/)
+  - [litellm](generativeai/unified-interface/litellm/)
+
+## Git
 
 ## MLOps
 
@@ -75,3 +83,4 @@ Guidance on ensuring AI systems are fair, robust, explainable, and compliant wit
 
 - [airisk](trustworthyai/airisk): xx
 - [strategy](trustworthyai/strategy): xx
+- [principles](trustworthyai/principles/): xx
