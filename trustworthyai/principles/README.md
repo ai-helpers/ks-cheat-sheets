@@ -4,6 +4,7 @@
 
 - [5 values-based Principles for trustworthy, human-centric AI](#5-values-based-principles-for-trustworthy-human-centric-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
+- [Principles](#principles)
   - [Benefit People \& Planet](#benefit-people--planet)
   - [Human rights, values \& fairness](#human-rights-values--fairness)
   - [Transparent \& explainable](#transparent--explainable)
@@ -15,6 +16,7 @@
   - [Accountable](#accountable)
 - [References](#references)
 
+# Principles
 
 ## Benefit People & Planet
 
