@@ -1,5 +1,21 @@
 # 5 values-based Principles for trustworthy, human-centric AI
 
+# Table of Contents (ToC)
+
+- [5 values-based Principles for trustworthy, human-centric AI](#5-values-based-principles-for-trustworthy-human-centric-ai)
+- [Table of Contents (ToC)](#table-of-contents-toc)
+  - [Benefit People \& Planet](#benefit-people--planet)
+  - [Human rights, values \& fairness](#human-rights-values--fairness)
+  - [Transparent \& explainable](#transparent--explainable)
+    - [Books](#books)
+    - [Python modules - Github](#python-modules---github)
+    - [Teams](#teams)
+  - [Robust, secure \& safe](#robust-secure--safe)
+    - [Python modules](#python-modules)
+  - [Accountable](#accountable)
+- [References](#references)
+
+
 ## Benefit People & Planet
 
 ## Human rights, values & fairness
