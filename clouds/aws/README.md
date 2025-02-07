@@ -267,7 +267,7 @@ source ~/.bashrc
 
 Refer to screenshots like `image-20240304-114639.png` for expected output.
 
-  Note:
+  > Note:
   If you encounter an error such as “Module not found” for setuptools when running awsume-configure, do the following:
 
   1. Activate the pipx virtual environment for AWSume:
@@ -333,7 +333,7 @@ aws sts get-caller-identity
 
 The output should reflect the details of the assumed role.
 
-  Troubleshooting:
+>  Troubleshooting:
   If you encounter an error like aws command not found when running aws sts get-caller-identity, refer to the [AWS CLI installation instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions).
 
 ---
