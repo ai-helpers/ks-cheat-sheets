@@ -66,7 +66,7 @@ aws-cli/2.13.33 Python/3.11.6 Linux/4.18.0-521.el8.x86_64 exe/x86_64.centos.8 pr
 ```
 
 ### Configuration for the AWS CLI
-1. Configure Credentials and Setting
+1. **Configure Credentials and Setting**
 Run the following command to set up your AWS credentials and configuration files:
 
 ```bash
@@ -79,7 +79,7 @@ When prompted, provide:
 - Default region name: eu-west-1
 - Default output format: json
 
-2. Verify Your Configuration
+2. **Verify Your Configuration**
 
 Check the caller identity to ensure the credentials are working correctly:
 
@@ -94,7 +94,7 @@ Check the caller identity to ensure the credentials are working correctly:
 _EOF
 ```
 
-3. Working with s3
+3. **Working with s3**
 
 ```bash
 # List the content of a public S3 bucket:
@@ -103,7 +103,7 @@ aws s3 ls --human --summarize s3://demand-forecast/
 aws s3 ls --human --summarize --recursive s3://turnover-forecast/
 ```
 
-4. Configuration Files
+4. **Configuration Files**
 
 The AWS CLI creates two configuration files in the `~/.aws/` directory: `config` and `credentials`.
 
@@ -116,7 +116,7 @@ total 8.0K
 _EOF
 ```
 
-5. Adding Additional Profiles
+5. **Adding Additional Profiles**
 
 To add another profile (e.g., `demand-forecast`), append the following to your `~/.aws/credentials` file:
 ```bash
@@ -270,18 +270,18 @@ Refer to screenshots like `image-20240304-114639.png` for expected output.
   > Note:
   If you encounter an error such as “Module not found” for setuptools when running awsume-configure, do the following:
 
-  1. Activate the pipx virtual environment for AWSume:
+  1. **Activate the pipx virtual environment for AWSume:**
   ```bash
   source /path/to/venv/bin/activate
   ```
 
-  2. Install setuptools:
+  2. **Install setuptools:**
   ```bash
   pip install setuptools
   ```
 
 ### Configure AWS SSO Login and Profiles
-1. Log In to AWS SSO
+1. **Log In to AWS SSO**
 
 Use the AWS SSO start URL to log in:
 
@@ -291,7 +291,7 @@ aws-sso-util login https://idp.example.com eu-west-1
 
 Your web browser will open to complete the authentication process.
 
-2. Automatically Populate AWS Profiles
+2. **Automatically Populate AWS Profiles**
 
 Populate your AWS configuration with SSO profiles:
 
@@ -299,7 +299,7 @@ Populate your AWS configuration with SSO profiles:
 aws-sso-util configure populate --region eu-west-1
 ```
 
-3. Manually Add Project Profiles
+3. **Manually Add Project Profiles**
 
 In your AWS configuration file (`~/.aws/config`), add one profile per project’s role and environment. For example, for the project demand-forecast:
 
@@ -317,7 +317,7 @@ region = eu-west-1
 role_arn = arn:aws:iam::123456789999:role/demand-forecast-pr
 ```
 
-4. Assume a Role with AWSume
+4. **Assume a Role with AWSume**
 
 Now that your profiles are configured, assume the desired role with AWSume. For example, to assume the dsfoperations-infra-pp profile:
 
