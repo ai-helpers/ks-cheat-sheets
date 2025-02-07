@@ -91,10 +91,10 @@ Similarly, a shoe manufacturer can ensure the quality of their products by perfo
   - _4.3. CT (optional):_ continuous training means periodic or trigger a retraining of the ML model based on new feature data. CT is enabled through the support of a monitoring component, feedback loop and an automated ML workflow pipeline. Continuous training always includes an evaluation run  to access the change in model quality.
 5. **Reproducibility:** reproducibility is the ability to reproduce an ML experiment or rollback to a previous version in order to obtain the exact same results.
 6. **Tracking and logging:** track and log each orchestrated ML workflow task. Tracking and logging is required for each training job iteration (e.g. training date and time, duration) including the model specific metadata (e.g. used parameters and the resulting performance metrics, model lineage : data and code used) to ensure the full traceability of experiments run.
-**7. Continuous monitoring:** Continuous monitoring implies the periodic assessment of data, mode, code, infrastructure resources, and model serving performance (e.g. prediction accuracy) to detect potential errors or changes that influence the product quality.
+7. **Continuous monitoring:** Continuous monitoring implies the periodic assessment of data, mode, code, infrastructure resources, and model serving performance (e.g. prediction accuracy) to detect potential errors or changes that influence the product quality.
 Where Testing ensures that the system (code, data and models) respects the expectations set offline (Build), Monitoring will rather ensure that the system continues to pass these expectations live in a production environment (Run)
-**8. Feedback loops:** Multiple feedback loops are required to integrate insights from the quality assessment step into the development or engineering process. 
+8. **Feedback loops:** Multiple feedback loops are required to integrate insights from the quality assessment step into the development or engineering process. 
 Production deployment (canary, shadow, blue/green deployment) and online experimentation (e.g. A/B Testing, Smoke testing, MAB testing) are solution in order to collect feedback.
 Another feedback loop from the monitoring component (e.g. observing the model, serving performance) to the scheduler to enable the retraining.
-**9. A/B Testing: xxx**
+9. **A/B Testing: xxx**
 
