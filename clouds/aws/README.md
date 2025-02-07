@@ -308,13 +308,13 @@ In your AWS configuration file (`~/.aws/config`), add one profile per project’
 role_session_name = demand-forecast-pp
 source_profile = hpc1-pp.AssumeRole
 region = eu-west-1
-role_arn = arn:aws:iam::614303399241:role/demand-forecast-pp
+role_arn = arn:aws:iam::123456789998:role/demand-forecast-pp
 
 [profile demand-forecast-pr]
 role_session_name = demand-forecast-pr
 source_profile = hpc1-pp-prod.AssumeRole
 region = eu-west-1
-role_arn = arn:aws:iam::585305677161:role/demand-forecast-pr
+role_arn = arn:aws:iam::123456789999:role/demand-forecast-pr
 ```
 
 4. Assume a Role with AWSume
