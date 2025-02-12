@@ -1,6 +1,6 @@
 # Databricks notebook source
 !pip install skrub skore
-!pip install -U scikit-learn
+!pip install -U scikit-learn joblib
 
 # COMMAND ----------
 
@@ -105,6 +105,11 @@ model
 # MAGIC ### Model evaluation using skore.CrossValidationReport
 # MAGIC #### First model
 # MAGIC Now, we want to evaluate this complex model via cross-validation (with 5 folds). For that, we use skore’s CrossValidationReport to investigate the performance of our model.
+
+# COMMAND ----------
+
+import joblib
+joblib.__version__
 
 # COMMAND ----------
 
