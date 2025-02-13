@@ -14,3 +14,4 @@
   - [Keynote/slide](https://media.licdn.com/dms/document/media/v2/D561FAQHwYxX7KLUU7A/feedshare-document-pdf-analyzed/B56ZRqgzlPGoAY-/0/1736953780301?e=1737590400&v=beta&t=Iz2Yn3OvdNGzq-49feRQSoiuO5VzsMbBSOl2_XC_Gbk)
 - [Github - Anthropic cookbook AI Agent](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
 - [Github - Browser use (open source openai operator)](https://github.com/browser-use/browser-use)
+- [Data Engineering weekly - The ascending arc of AI Agents](https://www.dataengineeringweekly.com/p/the-ascending-arc-of-ai-agents)
