@@ -18,8 +18,9 @@
 - [tensorflow]()
 - [tabPFN](https://github.com/PriorLabs/TabPFN): Foundation Model for Tabular Data
 
-## Learning - Machine Learning with scikit-learn (MOOC)
+## Learning - Machine Learning in Python with scikit-learn (MOOC)
 - [INRIA GitHub - Scikit Learn MOOC](https://inria.github.io/scikit-learn-mooc/toc.html)
+  - [MOOC - France Université Numerique](https://lms.fun-mooc.fr/courses/course-v1:inria+41026+session04/courseware/4594c1d8c9f847bdbc733c34d941c988/928e7401d2ed48a791036c555bca6d06/#welcome-child)
 
 # Forecasting
 
