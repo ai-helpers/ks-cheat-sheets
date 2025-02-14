@@ -18,6 +18,9 @@
 - [tensorflow]()
 - [tabPFN](https://github.com/PriorLabs/TabPFN): Foundation Model for Tabular Data
 
+## Learning - Machine Learning with scikit-learn (MOOC)
+- [INRIA GitHub - Scikit Learn MOOC](https://inria.github.io/scikit-learn-mooc/toc.html)
+
 # Forecasting
 
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
