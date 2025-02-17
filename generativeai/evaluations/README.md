@@ -1,5 +1,7 @@
 # References
 
+- [Arxiv - Lessons from red teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
+  - [Lnkd Post](https://www.linkedin.com/posts/gregoire-martinon_comment-assurer-la-s%C3%A9curit%C3%A9-des-syst%C3%A8mes-activity-7297155346706427904-dRn7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)
 - [AWS Blog - RAG evaluation with LLM as a judge](https://aws.amazon.com/fr/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/)
 - [Github - RAGAS](https://github.com/explodinggradients/ragas)
 - [DeepLearningAI - Safe and reliable AI via guardrails](https://learn.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails/lesson/3/what-are-guardrails)
