@@ -16,3 +16,6 @@
 - [Github - Anthropic cookbook AI Agent](https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents)
 - [Github - Browser use (open source openai operator)](https://github.com/browser-use/browser-use)
 - [Data Engineering weekly - The ascending arc of AI Agents](https://www.dataengineeringweekly.com/p/the-ascending-arc-of-ai-agents)
+
+# Learning
+- [HF Agent Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)
