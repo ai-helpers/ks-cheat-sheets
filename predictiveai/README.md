@@ -17,6 +17,12 @@
 - [pytorch]()
 - [tensorflow]()
 - [tabPFN](https://github.com/PriorLabs/TabPFN): Foundation Model for Tabular Data
+- [scikit-network](https://github.com/sknetwork-team/scikit-network)
+- [CARTE](https://github.com/soda-inria/carte): Repository for CARTE: Context-Aware Representation of Table Entries
+- [structured predictions](https://github.com/hi-paris/structured-predictions)
+  - https://hi-paris.github.io/structured-predictions/_build/html/index.html
+- [deepdespeckling](https://github.com/hi-paris/deepdespeckling): Speckle noise seriously limits the interpretability of synthetic aperture radar (SAR) images. This package provides deep learning based despeckling methods to denoise SAR images.
+- [POT](https://github.com/PythonOT/POT]: Python Optimal Transport
 
 ## Learning - Machine Learning in Python with scikit-learn (MOOC)
 - [INRIA GitHub - Scikit Learn MOOC](https://inria.github.io/scikit-learn-mooc/toc.html)
