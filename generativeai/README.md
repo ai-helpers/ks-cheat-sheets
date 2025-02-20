@@ -30,3 +30,5 @@
 
 # References
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
+- [GenAI Handbook](https://genai-handbook.github.io/)
+
