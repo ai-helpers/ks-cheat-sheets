@@ -40,6 +40,9 @@
 - [Arxiv - Deep Feature Embedding for Tabular Data](https://arxiv.org/pdf/2408.17162v1)
 - [Arxiv - On Embeddings for Numerical Featuresin Tabular Deep Learning](https://arxiv.org/pdf/2203.05556)
 
+## Startup
+- [Neuralk AI](https://www.neuralk-ai.com/}
+
 # Forecasting
 
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
