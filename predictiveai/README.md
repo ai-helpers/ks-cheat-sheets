@@ -29,19 +29,20 @@
 - [INRIA GitHub - Scikit Learn MOOC](https://inria.github.io/scikit-learn-mooc/toc.html)
   - [MOOC - France Université Numerique](https://lms.fun-mooc.fr/courses/course-v1:inria+41026+session04/courseware/4594c1d8c9f847bdbc733c34d941c988/928e7401d2ed48a791036c555bca6d06/#welcome-child)
 
-# Tabular
+# Tabular Data
 
 ## Github
 - [Github - RTDL (Research on Tabular Deep Learning)](https://github.com/yandex-research/rtdl)
   - [Github - On Embeddings for Numerical Features in Tabular Deep Learning](https://github.com/yandex-research/rtdl-num-embeddings)
 - [Github - Pytorch-frame](https://github.com/pyg-team/pytorch-frame)
+- [Github - CARTE](https://github.com/soda-inria/carte)
 
 ## Articles
 - [Arxiv - Deep Feature Embedding for Tabular Data](https://arxiv.org/pdf/2408.17162v1)
 - [Arxiv - On Embeddings for Numerical Featuresin Tabular Deep Learning](https://arxiv.org/pdf/2203.05556)
 
 ## Startup
-- [Neuralk AI](https://www.neuralk-ai.com/}
+- [Neuralk AI](https://www.neuralk-ai.com/)
 
 # Forecasting
 
@@ -58,6 +59,7 @@
 - [Github - SKtime](https://github.com/sktime/sktime) provides a scikit-learn-compatible framework for time series analysis, enabling users to apply machine learning techniques seamlessly. This integration allows for easy model tuning, validation, and deployment using familiar tools. You can also easily use embedded scikit-learn data transformers for feature generation
 - [Github - GluonTS](https://github.com/jgasthaus/gluon-ts) is focused on probabilistic forecasting, allowing users to generate not just point forecasts but also confidence intervals. 
 - [Article - Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/pdf/2412.20512)
+
 # Text-to-video
 
 - [TransPixar](https://github.com/wileewang/TransPixar): pipeline designed to support various video tasks, including Text-to-RGBA Video, Image-to-RGBA Video.
