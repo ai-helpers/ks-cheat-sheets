@@ -5,3 +5,7 @@
     - [candle - demos](https://github.com/nogibjj/rust-candle-demos)
 - [cargo](https://doc.rust-lang.org/cargo/)
 - [rust mlops template](https://github.com/nogibjj/rust-mlops-template)
+
+## Diagram
+
+![alt text](rust-secure-by-design.png)
