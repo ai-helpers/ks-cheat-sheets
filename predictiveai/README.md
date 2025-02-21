@@ -25,17 +25,21 @@
 - [POT](https://github.com/PythonOT/POT): Python Optimal Transport
 
 ## Learning - Machine Learning in Python with scikit-learn (MOOC)
+
 - [INRIA GitHub - Scikit Learn MOOC](https://inria.github.io/scikit-learn-mooc/toc.html)
   - [MOOC - France Université Numerique](https://lms.fun-mooc.fr/courses/course-v1:inria+41026+session04/courseware/4594c1d8c9f847bdbc733c34d941c988/928e7401d2ed48a791036c555bca6d06/#welcome-child)
 
 # Tabular
 
-- [Github - rtdl](https://github.com/yandex-research/rtdl): RTDL (Research on Tabular Deep Learning)
-  - [Github - rtdl num embeddings](https://github.com/yandex-research/rtdl-num-embeddings):  (NeurIPS 2022) On Embeddings for Numerical Features in Tabular Deep Learning
+## Github
+- [Github - RTDL (Research on Tabular Deep Learning)](https://github.com/yandex-research/rtdl)
+  - [Github - On Embeddings for Numerical Features in Tabular Deep Learning](https://github.com/yandex-research/rtdl-num-embeddings)
 - [Github - Pytorch-frame](https://github.com/pyg-team/pytorch-frame)
 
+## Articles
 - [Arxiv - Deep Feature Embedding for Tabular Data](https://arxiv.org/pdf/2408.17162v1)
 - [Arxiv - On Embeddings for Numerical Featuresin Tabular Deep Learning](https://arxiv.org/pdf/2203.05556)
+
 # Forecasting
 
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
