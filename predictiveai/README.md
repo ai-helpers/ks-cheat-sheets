@@ -36,6 +36,7 @@
   - [Github - On Embeddings for Numerical Features in Tabular Deep Learning](https://github.com/yandex-research/rtdl-num-embeddings)
 - [Github - Pytorch-frame](https://github.com/pyg-team/pytorch-frame)
 - [Github - CARTE](https://github.com/soda-inria/carte)
+- [Github - Tabpfn time series](https://github.com/liam-sbhoo/tabpfn-time-series)
 
 ## Articles
 - [Arxiv - Deep Feature Embedding for Tabular Data](https://arxiv.org/pdf/2408.17162v1)
