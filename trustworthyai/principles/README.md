@@ -36,6 +36,9 @@
 - [Github - LIME](https://github.com/marcotcr/lime)
 - [Github - MLI resources](https://github.com/h2oai/mli-resources/tree/master)
 - [Github - Skope Rules](https://github.com/scikit-learn-contrib/skope-rules)
+- [Github - Eli5](https://github.com/eli5-org/eli5)
+- [Github - AIX360](https://github.com/Trusted-AI/AIX360)
+- [Github - InterpretML](https://github.com/interpretml/interpret)
 
 ### Teams
 - [TADJ](https://lnkd.in/eecHfhdc)
