@@ -20,6 +20,10 @@
 - [Tools](tools)
 - [Unified Interface](agents)
 
+# LLM Glossary
+
+![glossary](https://github.com/user-attachments/assets/30938e91-b0b1-4677-951e-2baa84eb4064)
+_Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most-frequently-used-ai-activity-7298902233532743680-HLvH?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)_
 # Leaderboards
 - https://artificialanalysis.ai/leaderboards/models
 
