@@ -10,31 +10,35 @@
 
 # Structure
 
-- [Agents](agents/)
-  - [agentarium](agents/agentarium)
-  - [autogen](agents/autogen)
-- [Evaluations](evaluations/)
-- [Finetuning](finetuning/)
-- [GenAI Model Providers](genai-model-providers/)
-  - [Anthropic](genai-model-providers/anthropic)
-  - [MistralAI](genai-model-providers/mistralai)
-- [Hallunication (vs confabulation*?)](hallucinations)
-  - *: [Christopher Manning](https://cifar.ca/fr/biographie/christopher-manning/)
-- [Inference](inference/)
-- [LLM](llm/)
-  - [Notebooks](llm/notebooks)
-- [Retrieval Augmented Generation (RAG)](rag/)
-  - [Evaluations](rag/evaluations)
-- [Structure Outputs](structure-outputs/)
-- [Tools](tools/)
-- [Unified Interface](unified-interface/)
-  - [AI Suite](unified-interface/aisuite)
-  - [LiteLLM](unified-interface/litellm)
+## Generative AI
+A collection of resources, models, and tools for working with generative AI.  
 
-# LLM Glossary
+- [Agents](agents/) – AI agent frameworks and implementations.  
+  - [agentarium](agents/agentarium) – A framework for building and evaluating AI agents.  
+  - [autogen](agents/autogen) – Automation tools for generative AI-based workflows.  
+- [Evaluations](evaluations/) – Methods and benchmarks for assessing model performance.  
+- [Finetuning](finetuning/) – Techniques and resources for fine-tuning generative models.  
+- [GenAI Model Providers](genai-model-providers/) – Integration with different AI model providers.  
+  - [Anthropic](genai-model-providers/anthropic) – Resources related to Anthropic's AI models.  
+  - [MistralAI](genai-model-providers/mistralai) – Resources related to Mistral AI models.  
+- [Hallucination (vs confabulation*?)](hallucinations/) – Analysis and mitigation of AI-generated hallucinations.  
+  - *: [Christopher Manning](https://cifar.ca/fr/biographie/christopher-manning/) – Discussion on terminology.  
+- [Inference](inference/) – Running and optimizing model inference.  
+- [LLM](llm/) – Large language model-related tools and implementations.  
+  - [Notebooks](llm/notebooks) – Jupyter notebooks for experiments and demonstrations.  
+- [Retrieval Augmented Generation (RAG)](rag/) – Enhancing generative models with retrieval techniques.  
+  - [Evaluations](rag/evaluations) – Benchmarks for assessing RAG performance.  
+- [Structure Outputs](structure-outputs/) – Methods to structure and format AI-generated outputs.  
+- [Tools](tools/) – Various utilities for working with generative AI.  
+- [Unified Interface](unified-interface/) – Abstraction layers for interacting with different AI models.  
+  - [AI Suite](unified-interface/aisuite) – A suite of tools for AI workflows.  
+  - [LiteLLM](unified-interface/litellm) – A lightweight interface for multiple LLM providers.  
+
+## LLM Glossary
 
 ![glossary](https://github.com/user-attachments/assets/30938e91-b0b1-4677-951e-2baa84eb4064)
 _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most-frequently-used-ai-activity-7298902233532743680-HLvH?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)_
+
 # Leaderboards
 - https://artificialanalysis.ai/leaderboards/models
 
