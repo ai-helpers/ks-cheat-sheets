@@ -9,16 +9,27 @@
 - [Learnings](#learnings)
 
 # Structure
-- [Agents](agents)
-- [Fine-tuning](finetuning)
-- [GenAI model providers](genai-model-providers)
+
+- [Agents](agents/)
+  - [agentarium](agents/agentarium)
+  - [autogen](agents/autogen)
+- [Evaluations](evaluations/)
+- [Finetuning](finetuning/)
+- [GenAI Model Providers](genai-model-providers/)
+  - [Anthropic](genai-model-providers/anthropic)
+  - [MistralAI](genai-model-providers/mistralai)
 - [Hallunication (vs confabulation*?)](hallucinations)
   - *: [Christopher Manning](https://cifar.ca/fr/biographie/christopher-manning/)
-- [Inference](inference)
-- [Retrieval Augmented Generation (RAG)](rag)
-- [Structure Outputs](structure-outputs)
-- [Tools](tools)
-- [Unified Interface](agents)
+- [Inference](inference/)
+- [LLM](llm/)
+  - [Notebooks](llm/notebooks)
+- [Retrieval Augmented Generation (RAG)](rag/)
+  - [Evaluations](rag/evaluations)
+- [Structure Outputs](structure-outputs/)
+- [Tools](tools/)
+- [Unified Interface](unified-interface/)
+  - [AI Suite](unified-interface/aisuite)
+  - [LiteLLM](unified-interface/litellm)
 
 # LLM Glossary
 
