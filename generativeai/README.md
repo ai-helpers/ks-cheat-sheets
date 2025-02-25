@@ -33,6 +33,7 @@ A collection of resources, models, and tools for working with generative AI.
 - [Unified Interface](unified-interface/) – Abstraction layers for interacting with different AI models.  
   - [AI Suite](unified-interface/aisuite) – A suite of tools for AI workflows.  
   - [LiteLLM](unified-interface/litellm) – A lightweight interface for multiple LLM providers.  
+- [Github - gibberlink](https://github.com/PennyroyalTea/gibberlink): Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents
 
 ## LLM Glossary
 
