@@ -17,5 +17,9 @@
 - [Github - Browser use (open source openai operator)](https://github.com/browser-use/browser-use)
 - [Data Engineering weekly - The ascending arc of AI Agents](https://www.dataengineeringweekly.com/p/the-ascending-arc-of-ai-agents)
 
+# Agents
+
+> An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions (often via external tools) to fulfill tasks.
+
 # Learning
 - [HF Agent Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)
