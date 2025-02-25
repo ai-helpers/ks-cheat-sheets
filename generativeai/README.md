@@ -53,6 +53,7 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Github - AI Engineering Academy](https://github.com/adithya-s-k/AI-Engineering.academy/tree/main)
 - [LinkedIn - AI Agent Courses](https://www.linkedin.com/posts/rakeshgohel01_18-free-ai-agent-resources-to-give-you-a-activity-7280228797872779264-c5RK?utm_source=share&utm_medium=member_desktop)
 - [Notion - Free AI Agents course](https://jewel-snapdragon-5a9.notion.site/AI-Agents-Course-by-Armand-Ruiz-182accc688c780f3b27eedf56359213f)
+- [Github - AI Agents for beginners (microsoft)](https://github.com/microsoft/ai-agents-for-beginners)
 
 ## References
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
