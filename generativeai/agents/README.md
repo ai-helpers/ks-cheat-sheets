@@ -23,3 +23,5 @@
 
 # Learning
 - [HF Agent Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)
+  - [Github - smolagent](https://github.com/huggingface/smolagents)
+  - [blog post](https://huggingface.co/blog/smolagents)
