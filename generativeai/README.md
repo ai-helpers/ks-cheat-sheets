@@ -39,15 +39,21 @@ A collection of resources, models, and tools for working with generative AI.
 ![glossary](https://github.com/user-attachments/assets/30938e91-b0b1-4677-951e-2baa84eb4064)
 _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most-frequently-used-ai-activity-7298902233532743680-HLvH?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)_
 
-# Leaderboards
+## Leaderboards
 - https://artificialanalysis.ai/leaderboards/models
 
-# Learnings
+## Python libraries & articles
+
+- [Github - Step video t2v (text 2 video)](https://github.com/stepfun-ai/step-video-t2v)
+- [Github - Omniparser (microsoft)](https://github.com/microsoft/omniparser)
+- [Github - Step Aduio (Intelligent Speech interaction)](https://github.com/stepfun-ai/step-audio)
+
+## Learnings
 - [Github - AI Engineering Academy](https://github.com/adithya-s-k/AI-Engineering.academy/tree/main)
 - [LinkedIn - AI Agent Courses](https://www.linkedin.com/posts/rakeshgohel01_18-free-ai-agent-resources-to-give-you-a-activity-7280228797872779264-c5RK?utm_source=share&utm_medium=member_desktop)
 - [Notion - Free AI Agents course](https://jewel-snapdragon-5a9.notion.site/AI-Agents-Course-by-Armand-Ruiz-182accc688c780f3b27eedf56359213f)
 
-# References
+## References
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
 - [GenAI Handbook](https://genai-handbook.github.io/)
 
