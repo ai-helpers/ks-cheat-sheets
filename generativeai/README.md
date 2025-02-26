@@ -48,6 +48,7 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Github - Step video t2v (text 2 video)](https://github.com/stepfun-ai/step-video-t2v)
 - [Github - Omniparser (microsoft)](https://github.com/microsoft/omniparser)
 - [Github - Step Aduio (Intelligent Speech interaction)](https://github.com/stepfun-ai/step-audio)
+- [Github colpali](https://github.com/illuin-tech/colpali): visual embeddings
 
 ## Learnings
 - [Github - AI Engineering Academy](https://github.com/adithya-s-k/AI-Engineering.academy/tree/main)
