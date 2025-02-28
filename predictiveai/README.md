@@ -49,6 +49,7 @@
 # Forecasting
 
 - [Github - chronos-forecasting (AWS)](https://github.com/amazon-science/chronos-forecasting)
+- [Github - autogluon](https://github.com/autogluon/autogluon): opensource autoML tooklit that democratizes machine learning, fast & accurate ML in 3 lines of code, supports tabular, time series, image, text, multimodal data
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
   - [Github - statsforecast](https://github.com/Nixtla/statsforecast): Lightning fast forecasting with statistical and econometric models.
     - [Documentation](nixtlaverse.nixtla.io/statsforecast)
@@ -60,7 +61,7 @@
 - [Github - Darts](https://github.com/unit8co/darts): python module offers a consistent 𝘧𝘪𝘵() and 𝘱𝘳𝘦𝘥𝘪𝘤𝘵() interface across various forecasting models, from classical methods like ARIMA to deep learning models.  This makes it easy to compare and switch between different models without needing to understand their internal workings
 - [Github - Prophet](https://github.com/facebook/prophet): designed for users with limited statistical knowledge, allowing them to easily handle seasonal effects and missing data. Its intuitive interface makes it accessible for business applications requiring quick and interpretable forecasts.
 - [Github - SKtime](https://github.com/sktime/sktime) provides a scikit-learn-compatible framework for time series analysis, enabling users to apply machine learning techniques seamlessly. This integration allows for easy model tuning, validation, and deployment using familiar tools. You can also easily use embedded scikit-learn data transformers for feature generation
-- [Github - GluonTS](https://github.com/jgasthaus/gluon-ts) is focused on probabilistic forecasting, allowing users to generate not just point forecasts but also confidence intervals.
+- [Github - GluonTS](https://github.com/awslabs/gluonts) is focused on probabilistic forecasting, allowing users to generate not just point forecasts but also confidence intervals.
 - [Github - Tabpfn time series](https://github.com/liam-sbhoo/tabpfn-time-series)
   - [Podcast - Tabpfn](https://www.superdatascience.com/podcast/863)
 - [Article - Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/pdf/2412.20512)
