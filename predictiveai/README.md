@@ -48,6 +48,7 @@
 
 # Forecasting
 
+- [Github - chronos-forecasting (AWS)](https://github.com/amazon-science/chronos-forecasting)
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
   - [Github - statsforecast](https://github.com/Nixtla/statsforecast): Lightning fast forecasting with statistical and econometric models.
     - [Documentation](nixtlaverse.nixtla.io/statsforecast)
