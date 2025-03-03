@@ -28,6 +28,7 @@ A curated list of references, including official documentation, blogs, and resea
 
 
 # Sections
+
 ## API
 This section includes cheat sheets for popular frameworks and tools used for building APIs.
 
@@ -71,9 +72,12 @@ Methodologies, tools, and processes to streamline machine learning development, 
 - [zenml](mlops/zenml)
 
 ## [Predictive AI](/predictiveai/README.md)
+
 Highlights tools and libraries for traditional and advanced machine learning tasks.
 - [sklearn](modeling/sklearn): Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
 - [skrub](modeling/skrub): A library for data preparation and cleaning tasks tailored for machine learning workflows.
+- [skore](modeling/skore): skore is a Python open-source library designed to help data scientists apply recommended practices and avoid common methodological pitfalls in `scikit-learn`.
+- [skops](modeling/skops): Python library helping you share a `scikit-learn` based models and put them in production.
 
 ## [Python](/python/)
 
