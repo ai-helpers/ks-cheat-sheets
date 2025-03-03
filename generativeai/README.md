@@ -65,4 +65,5 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 ## References
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
 - [GenAI Handbook](https://genai-handbook.github.io/)
+- [Github - Graph data science blog](https://github.com/tomasonjo/blogs/tree/master)
 
