@@ -45,6 +45,10 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Github - docling](https://github.com/DS4SD/docling?tab=readme-ov-file)
 - [Github - Omniparser (microsoft)](https://github.com/microsoft/OmniParser)
 
+## BERT
+
+- [Github - KeyBERT](https://github.com/MaartenGr/KeyBERT)
+
 ## Leaderboards
 - https://artificialanalysis.ai/leaderboards/models
 
