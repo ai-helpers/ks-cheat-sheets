@@ -39,6 +39,7 @@
     - TruLens
 - [Lnkd Gregoire M - Incertitude LLM](https://www.linkedin.com/posts/gregoire-martinon_comment-mesurer-lincertitude-des-llms-activity-7272150576518377472-EBlT/?utm_source=share&utm_medium=member_ios)
 - [Practical Guide - LLM as a Judge](https://media.licdn.com/dms/document/media/v2/D561FAQGDS007DinjBw/feedshare-document-pdf-analyzed/feedshare-document-pdf-analyzed/0/1733838335869?e=1738195200&v=beta&t=0x3wvxWPFBxOkAm2HuNk13grh7CH5fXeo1AVAhB0f4w)
+- [Github - lmms eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): evaluation module from microsoft
 
 # HELM
 ## What is HELM?
