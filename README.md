@@ -50,13 +50,15 @@ Focused on concepts, tools, and best practices for generative AI development.
   - [agentarium](generativeai/agents/agentarium/)
   - [autogen](generativeai/agents/autogen/)
 - [Evaluation](generativeai/evaluations/)
-- [Finetuning](generativeai/finetuning): xx
+- [Post-traning](generativeai/post-traning):
+  - [finetuning](generativeai/post-traning/finetuning)
+  - [rlhf](generativeai/post-traning/rlhf) 
 - [genai-model-providers](generativeai/genai-model-providers/): Comparative insights into popular generative AI providers and their APIs.
 - [Hallucinations:](generativeai/hallucinations) Understanding and mitigating hallucination risks in generative models.
 - [Inference:](generativeai/inference) xxx
 - [RAG:](generativeai/agents) Retrieval-Augmented Generation (RAG) techniques to combine generative models with knowledge retrieval.
-- [Structure outputs:](generativeai/structured-outputs) xx
-- [Tools:](generativeai/agents) xx
+- [Structure outputs:](generativeai/structured-outputs) 
+- [Tools:](generativeai/agents) 
 - [Unified Interface:](generativeai/unified-interface) Implementing a single interface for interacting with multiple generative AI providers.
   - [aisuite](generativeai/unified-interface/aisuite/)
   - [litellm](generativeai/unified-interface/litellm/)
@@ -64,8 +66,9 @@ Focused on concepts, tools, and best practices for generative AI development.
 ## Git
 
 ## MLOps
+Methodologies, tools, and processes to streamline machine learning development, deployment, and monitoring.  
 
-- [zenml](mlops/zenml): xx
+- [zenml](mlops/zenml)
 
 ## [Predictive AI](/predictiveai/README.md)
 Highlights tools and libraries for traditional and advanced machine learning tasks.
@@ -74,13 +77,14 @@ Highlights tools and libraries for traditional and advanced machine learning tas
 
 ## [Python](/python/)
 
-- [UV](python/uv): xx
-- [poetry](python/poetry): xx
-- [pyenv](python/pyenv): xx
+- [poetry](python/poetry): A dependency management and packaging tool that simplifies Python project workflows.  
+- [pyenv](python/pyenv): A Python version management tool that allows switching between multiple Python installations.  
+- [UV](python/uv): A fast Python package installer and virtual environment manager designed as an alternative to pip.  
 
 ## Trustworthy AI
 Guidance on ensuring AI systems are fair, robust, explainable, and compliant with ethical principles and regulatory standards.
 
-- [airisk](trustworthyai/airisk): xx
-- [strategy](trustworthyai/strategy): xx
-- [principles](trustworthyai/principles/): xx
+- [airisk](trustworthyai/airisk): Frameworks and methodologies for assessing and mitigating risks in AI systems.  
+- [principles](trustworthyai/principles/): Core principles and guidelines for building responsible and transparent AI models.  
+- [strategy](trustworthyai/strategy): Best practices for integrating trust, governance, and accountability into AI development.  
+
