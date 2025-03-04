@@ -66,6 +66,18 @@
   - [Podcast - Tabpfn](https://www.superdatascience.com/podcast/863)
 - [Article - Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/pdf/2412.20512)
 
+# Vision
+
+- [HF - timm](https://huggingface.co/docs/timm/index)
+  - [Github - pytorch-image-models](https://github.com/huggingface/pytorch-image-models)
+- [Github - opencv-pythoncore](): vision algorithms
+- [Github - torchvisioncore](): vision algorithms
+- [Github - Pillowcore](): vision algorithms
+- [Github - albumentationsimage](): augmentations
+- [Github - timmpre-trained](): models
+- [Github - scikit-imagecore](): vision algorithms
+- [Github -segmentation-models-pytorch] segmentation
+
 # Text-to-video
 
 - [TransPixar](https://github.com/wileewang/TransPixar): pipeline designed to support various video tasks, including Text-to-RGBA Video, Image-to-RGBA Video.
