@@ -9,6 +9,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 - [References](#references)
 - [Sections](#sections)
   - [API](#api)
+  - [BI](#bi)
   - [Clouds](#clouds)
   - [Generative AI](#generative-ai)
   - [Git](#git)
@@ -34,6 +35,9 @@ This section includes cheat sheets for popular frameworks and tools used for bui
 
 - [FastAPI](api/fastapi): A fast and efficient Python web framework for building RESTful APIs with automatic OpenAPI documentation.
 - [Ray](api/ray): A distributed computing framework designed for scaling Python applications effortlessly, commonly used for machine learning workloads.
+
+## BI
+BI as code (open source examples).
 
 ## Clouds
 Guidelines and tips for leveraging cloud platforms to develop and deploy AI solutions.
