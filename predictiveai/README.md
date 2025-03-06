@@ -48,6 +48,8 @@
 
 # Forecasting
 
+- [Github - Merlion](https://github.com/salesforce/merlion)
+  - [Paper](https://arxiv.org/pdf/2109.09265v1)
 - [Github - chronos-forecasting (AWS)](https://github.com/amazon-science/chronos-forecasting)
 - [Github - autogluon](https://github.com/autogluon/autogluon): opensource autoML tooklit that democratizes machine learning, fast & accurate ML in 3 lines of code, supports tabular, time series, image, text, multimodal data
 - [Github - Nixtla](https://github.com/nixtla): state-of-the-art time series forecasting methods that are embedded in a set of libraries and models, most famous are:
