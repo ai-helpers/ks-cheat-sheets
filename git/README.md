@@ -1,5 +1,7 @@
 # References
 
+- [Oh Shit, Git!](https://ohshitgit.com/#magic-time-machine)
+- [Code. Simply. Clearly. Calmly](https://calmcode.io/)
 - [HackerNews - macos keychain to store ssh ssh key password](https://news.ycombinator.com/item?id=23664556)
   - [Apple stack exchange](https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically): add my SSH private key to Keychain so it is automatically available to ssh
 - [Workflow git]()
