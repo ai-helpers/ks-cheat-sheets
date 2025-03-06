@@ -7,3 +7,10 @@
 - [Lnkd Post - Hallucination (Rome research)](https://www.linkedin.com/posts/gregoire-martinon_comment-%C3%A9valuer-les-hallucinations-des-activity-7288458066906284032-Xnsa?utm_source=share&utm_medium=member_desktop)
    - [Article](https://arxiv.org/abs/2411.19655)
 - [Github - LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect)
+  - Key Features:
+    - Token-level precision: detect exact hallucinated spans
+    - Optimized for inference: smaller model size and faster inference
+    - 4K context window via ModernBERT
+    - MIT-licensed models & code
+    - HF Integration: one-line model loading
+    - Easy to use python API: can be downloaded from pip and few lines of code to integrate into your RAG system
