@@ -71,4 +71,4 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
 - [GenAI Handbook](https://genai-handbook.github.io/)
 - [Github - Graph data science blog](https://github.com/tomasonjo/blogs/tree/master)
-
+- [Research Google - AMIE (cardiologist)](https://research.google/blog/advancing-amie-towards-specialist-care-and-real-world-validation/): "Articulate Medical Intelligence Explorer"
