@@ -4,9 +4,13 @@
 
 [Source](https://docs.anthropic.com/en/docs/agents-and-tools/mcp)
 
+![image](https://github.com/user-attachments/assets/6ae761ad-3cf7-4411-9da2-765f5f0a1319)
+
+
 # References
 
 - [Github - composio](https://docs.composio.dev/getting-started/welcome)
+- [Youtube - AI Summit](https://www.youtube.com/watch?v=kQmXtrmQ5Zg)
 - [Github - Model Context Protocol (MCP) Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [Github - mastra](https://github.com/mastra-ai/mastra)
   - [Mastra mcp](https://mastra.ai/blog/mastra-mcp)
