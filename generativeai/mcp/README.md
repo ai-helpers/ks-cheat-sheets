@@ -11,6 +11,7 @@
 
 - [Github - composio](https://docs.composio.dev/getting-started/welcome)
 - [Youtube - AI Summit](https://www.youtube.com/watch?v=kQmXtrmQ5Zg)
+  - [Why MCP won](https://www.latent.space/p/why-mcp-won)
 - [Github - Model Context Protocol (MCP) Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [Github - mastra](https://github.com/mastra-ai/mastra)
   - [Mastra mcp](https://mastra.ai/blog/mastra-mcp)
