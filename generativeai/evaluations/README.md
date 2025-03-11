@@ -1,6 +1,7 @@
 # References
 
 - [Arxiv - Evaluate Agent with Agent](https://arxiv.org/pdf/2410.10934)
+- [Giskard - LLM as a judge](https://www.giskard.ai/knowledge/how-to-implement-llm-as-a-judge-to-test-ai-agents-part-1?utm_content=buffer3aded&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
 - [Arxiv - Lessons from red teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
   - [Lnkd Post](https://www.linkedin.com/posts/gregoire-martinon_comment-assurer-la-s%C3%A9curit%C3%A9-des-syst%C3%A8mes-activity-7297155346706427904-dRn7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)
 - [AWS Blog - RAG evaluation with LLM as a judge](https://aws.amazon.com/fr/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/)
