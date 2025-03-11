@@ -6,4 +6,8 @@
 
 # References
 
+- [Github - composio](https://docs.composio.dev/getting-started/welcome)
 - [Github - Model Context Protocol (MCP) Python SDK](https://github.com/modelcontextprotocol/python-sdk)
+- [Github - mastra](https://github.com/mastra-ai/mastra)
+  - [Mastra mcp](https://mastra.ai/blog/mastra-mcp)
+  
