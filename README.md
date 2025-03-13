@@ -94,5 +94,10 @@ Guidance on ensuring AI systems are fair, robust, explainable, and compliant wit
 
 - [airisk](trustworthyai/airisk): Frameworks and methodologies for assessing and mitigating risks in AI systems.  
 - [principles](trustworthyai/principles/): Core principles and guidelines for building responsible and transparent AI models.  
-- [strategy](trustworthyai/strategy): Best practices for integrating trust, governance, and accountability into AI development.  
+- [strategy](trustworthyai/strategy): Best practices for integrating trust, governance, and accountability into AI development.
+
+## Frontend 
+- [Streamlit]
+- [Django](https://www.djangoproject.com/)
+- [Tailwindcss](https://tailwindcss.com/)
 
