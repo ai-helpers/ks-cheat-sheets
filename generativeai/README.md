@@ -53,6 +53,9 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 ## Leaderboards
 - https://artificialanalysis.ai/leaderboards/models
 
+## TTS
+- [Github - Spark TTS](https://github.com/sparkaudio/spark-tts)
+
 ## Python libraries & articles
 
 - [Github - Step video t2v (text 2 video)](https://github.com/stepfun-ai/step-video-t2v)
