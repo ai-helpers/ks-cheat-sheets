@@ -35,6 +35,7 @@ A collection of resources, models, and tools for working with generative AI.
   - [LiteLLM](unified-interface/litellm) – A lightweight interface for multiple LLM providers.  
 - [Github - gibberlink](https://github.com/PennyroyalTea/gibberlink): Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents
 - [Github - gptme](https://github.com/ErikBjare/gptme): personal assistant (command line)
+- [Github - EasyR1 (Multimodal RL training framework](https://github.com/hiyouga/easyr1)
 
 ## LLM Glossary
 
