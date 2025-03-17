@@ -66,6 +66,10 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Github - Step Aduio (Intelligent Speech interaction)](https://github.com/stepfun-ai/step-audio)
 - [Github colpali](https://github.com/illuin-tech/colpali): visual embeddings
 
+## Robot
+
+- [HuggingFace - LeRobot](https://huggingface.co/lerobot)
+
 ## Learnings
 - [Github - AI Engineering Academy](https://github.com/adithya-s-k/AI-Engineering.academy/tree/main)
 - [LinkedIn - AI Agent Courses](https://www.linkedin.com/posts/rakeshgohel01_18-free-ai-agent-resources-to-give-you-a-activity-7280228797872779264-c5RK?utm_source=share&utm_medium=member_desktop)
