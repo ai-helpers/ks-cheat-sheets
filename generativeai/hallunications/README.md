@@ -14,3 +14,7 @@
     - MIT-licensed models & code
     - HF Integration: one-line model loading
     - Easy to use python API: can be downloaded from pip and few lines of code to integrate into your RAG system
+- Lee, Nayeon, et al. Factuality enhanced language models for open-ended text generation. Advances in Neural Information Processing Systems 35 (2022): 34586-34599.
+- Ladhak, Faisal, et al. When do pre-training biases propagate to downstream tasks? a case study in text summarization. Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics. 2023.
+- Vipula Rawte, Swagata Chakraborty, Agnibh Pathak, Anubhav Sarkar, S.M Towhidul Islam Tonmoy, Aman
+Chadha, Amit Sheth, and Amitava Das. 2023. The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 2541–2573, Singapore. Association for Computational Linguistics.
