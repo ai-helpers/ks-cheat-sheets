@@ -48,6 +48,16 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 
 - [Github - docling](https://github.com/DS4SD/docling?tab=readme-ov-file)
 - [Github - Omniparser (microsoft)](https://github.com/microsoft/OmniParser)
+  - Papier: https://arxiv.org/abs/2408.00203
+  - Github: https://github.com/microsoft/OmniParser (avec OmniTool)
+  - Modèle: https://huggingface.co/microsoft/OmniParser
+  - Blog V2: https://www.microsoft.com/en-us/research/articles/omniparser-v2-turning-any-llm-into-a-computer-use-agent/ (2025.02.12)
+  - Modèle V2: https://huggingface.co/microsoft/OmniParser-v2.0
+  - Démo V2: https://huggingface.co/spaces/microsoft/OmniParser-v2
+- [Ferret-UI de Apple]()
+  - Papier: https://arxiv.org/abs/2404.05719 (2024.04.08)
+  - Papier V2: https://arxiv.org/abs/2410.18967 (2024.10.24)
+  - Github: https://github.com/apple/ml-ferret/tree/main/ferretui
 
 ## BERT
 
