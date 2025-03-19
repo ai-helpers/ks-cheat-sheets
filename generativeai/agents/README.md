@@ -1,5 +1,6 @@
 # References
 
+- [Arxiv - Executable Code Actions Elicit Better LLM Agents](https://arxiv.org/pdf/2402.01030)
 - [Arxiv - Evaluate Agent with Agent](https://arxiv.org/pdf/2410.10934)
 - [Github - Bee Agent Framework](https://github.com/i-am-bee/bee-agent-framework)
 - [Github HF smolagents](https://github.com/huggingface/smolagents)
