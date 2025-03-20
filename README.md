@@ -7,7 +7,6 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
 - [Quick Links](#quick-links)
-- [Related repository](#related-repository)
 - [Sections](#sections)
   - [API](#api)
   - [BI](#bi)
@@ -20,6 +19,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [Rust](#rust)
   - [Trustworthy AI](#trustworthy-ai)
   - [Frontend](#frontend)
+- [Related repository](#related-repository)
 
 # Overview
 
@@ -34,11 +34,6 @@ A curated list of references, including official documentation, blogs, and resea
 | [🔌 API](#api) | [📊 BI](#bi) | [☁️ Clouds](#clouds) | [🤖 Generative AI](#generative-ai) | [🔄 Git](#git) |
 |----------------|--------------|-------------------|--------------------------------|---------------|
 | [⚙️ MLOps](#mlops) | [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) | [⚖️ Trustworthy AI](#trustworthy-ai) |
-
-# Related repository 
-
-- [Github - AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
-- [Github - Data Engineering Helpers (ks-cheat-sheets)](https://github.com/data-engineering-helpers/ks-cheat-sheets)
 
 # Sections
 
@@ -120,3 +115,7 @@ A curated list of references, including official documentation, blogs, and resea
 | Django | Web framework | [Django](frontend/django) |
 | Tailwind CSS | Utility-first CSS framework | [Tailwind CSS](frontend/tailwindcss) |
 
+# Related repository 
+
+- [Github - AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
+- [Github - Data Engineering Helpers (ks-cheat-sheets)](https://github.com/data-engineering-helpers/ks-cheat-sheets)
