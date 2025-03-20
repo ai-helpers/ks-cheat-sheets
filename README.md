@@ -37,7 +37,8 @@ A curated list of references, including official documentation, blogs, and resea
 
 # Related repository 
 
-- [AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
+- [Github - AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
+- [Github - Data Engineering Helpers (ks-cheat-sheets)](https://github.com/data-engineering-helpers/ks-cheat-sheets)
 
 # Sections
 
