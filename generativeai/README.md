@@ -86,6 +86,7 @@ _Figure: [Post](https://www.linkedin.com/posts/kalyanksnlp_llm-glossary-the-most
 - [Notion - Free AI Agents course](https://jewel-snapdragon-5a9.notion.site/AI-Agents-Course-by-Armand-Ruiz-182accc688c780f3b27eedf56359213f)
 - [Github - AI Agents for beginners (microsoft)](https://github.com/microsoft/ai-agents-for-beginners)
 - [HF cookbook/course (e.g. multimodal rag)](https://huggingface.co/learn/cookbook/multimodal_rag_using_document_retrieval_and_vlms)
+- [YouTube - DeepLearning Introduction](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
 
 ## References
 - [Github - Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
