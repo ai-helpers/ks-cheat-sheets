@@ -7,6 +7,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 
 <details>
   <summary>Click me</summary>
+
 - [Knowledge sharing - Cheat sheets (AI)](#knowledge-sharing---cheat-sheets-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
