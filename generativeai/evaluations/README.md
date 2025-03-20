@@ -40,8 +40,27 @@
     - RAGAs for LLM based evaluation https://docs.ragas.io/en/latest/
     - TruLens
 - [Lnkd Gregoire M - Incertitude LLM](https://www.linkedin.com/posts/gregoire-martinon_comment-mesurer-lincertitude-des-llms-activity-7272150576518377472-EBlT/?utm_source=share&utm_medium=member_ios)
+- [Arxiv - Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models](https://arxiv.org/pdf/2305.19187): How to Measure LLM Uncertainty and Why It Matters?
+  - Researchers from the University of Illinois propose a three-step method:
+    1. Generate 10 or more responses to the same question.
+    2. Compute a similarity matrix between the responses.
+    3. Derive an uncertainty score based on response diversity and inconsistency.
+  - Two key criteria validate the approach:
+    - Error prediction: Uncertainty should correlate with incorrect answers (evaluated via AUC-ROC analysis).
+    - Error rejection: Filtering uncertain responses should improve accuracy (measured via rejection curve analysis).
+  - Findings?
+    - The worst approach is asking the LLM to estimate its own uncertainty.
+    - The best method combines: NLI-based implication scores for the similarity matrix. + Spectral clustering of responses to compute the final uncertainty score.
+  - Challenges and Limitations:
+    - High cost: Each score requires 10+ LLM calls.
+    - Requires non-zero temperature, making it inapplicable to deterministic responses.
+    - Generic context: NLI models used are general-purpose and may not fit business-specific cases.
+    - Lack of interpretability: The uncertainty scores (e.g., 0.4 to 10) lack clear business or probabilistic meaning.
+    - Short responses work best: For long responses, contradictions get diluted, biasing NLI models trained on short sentences.
 - [Practical Guide - LLM as a Judge](https://media.licdn.com/dms/document/media/v2/D561FAQGDS007DinjBw/feedshare-document-pdf-analyzed/feedshare-document-pdf-analyzed/0/1733838335869?e=1738195200&v=beta&t=0x3wvxWPFBxOkAm2HuNk13grh7CH5fXeo1AVAhB0f4w)
 - [Github - lmms eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): evaluation module from microsoft
+- [Arxiv - Agent as a Judge: Evaluate Agents with Agents](https://arxiv.org/pdf/2410.10934)
+- [How to implement LLM as a Judge to test AI Agents?](https://www.giskard.ai/knowledge/how-to-implement-llm-as-a-judge-to-test-ai-agents-part-1?utm_content=buffer3aded&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
 
 # HELM
 ## What is HELM?
