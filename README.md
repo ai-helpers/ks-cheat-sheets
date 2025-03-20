@@ -7,7 +7,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
 - [Quick Links](#quick-links)
-- [References](#references)
+- [Related repository](#related-repository)
 - [Sections](#sections)
   - [API](#api)
   - [BI](#bi)
@@ -23,7 +23,11 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 
 # Overview
 
-This repository provides a structured and categorized collection of cheat sheets, offering rapid access to essential knowledge for developing, deploying, and managing AI systems. It covers a wide array of topics, including APIs, cloud services, generative AI techniques, modeling libraries, and principles of trustworthy AI.
+This repository provides a structured and categorized collection of cheat sheets, offering rapid access to essential knowledge for developing, deploying, and managing AI systems. 
+
+It covers a wide array of topics, including APIs, cloud services, generative AI techniques, modeling libraries, and principles of trustworthy AI.
+
+A curated list of references, including official documentation, blogs, and research papers, to support the content provided in the cheat sheets.
 
 # Quick Links
 
@@ -31,9 +35,9 @@ This repository provides a structured and categorized collection of cheat sheets
 |----------------|--------------|-------------------|--------------------------------|---------------|
 | [⚙️ MLOps](#mlops) | [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) | [⚖️ Trustworthy AI](#trustworthy-ai) |
 
-# References
+# Related repository 
 
-A curated list of references, including official documentation, blogs, and research papers, to support the content provided in the cheat sheets.
+- [AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
 
 # Sections
 
