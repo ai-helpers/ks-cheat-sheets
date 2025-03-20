@@ -6,6 +6,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
 - [Knowledge sharing - Cheat sheets (AI)](#knowledge-sharing---cheat-sheets-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
+- [Quick Links](#quick-links)
 - [References](#references)
 - [Sections](#sections)
   - [API](#api)
@@ -17,87 +18,103 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [Predictive AI](#predictive-ai)
   - [Python](#python)
   - [Trustworthy AI](#trustworthy-ai)
+  - [Frontend](#frontend)
 
 # Overview
 
 This repository provides a structured and categorized collection of cheat sheets, offering rapid access to essential knowledge for developing, deploying, and managing AI systems. It covers a wide array of topics, including APIs, cloud services, generative AI techniques, modeling libraries, and principles of trustworthy AI.
 
+# Quick Links
+
+| Section | Description |
+|---------|-------------|
+| [API](#api) | Frameworks and tools for building APIs |
+| [BI](#bi) | Business Intelligence as code |
+| [Clouds](#clouds) | Cloud platforms for AI solutions |
+| [Generative AI](#generative-ai) | Tools and practices for generative AI |
+| [Git](#git) | Version control and collaboration |
+| [MLOps](#mlops) | Machine learning operations |
+| [Predictive AI](#predictive-ai) | Traditional and advanced ML tools |
+| [Python](#python) | Python development tools |
+| [Trustworthy AI](#trustworthy-ai) | Ethical AI and risk management |
+| [Frontend](#frontend) | Frontend development tools |
 
 # References
 
 A curated list of references, including official documentation, blogs, and research papers, to support the content provided in the cheat sheets.
 
-
 # Sections
 
 ## API
-This section includes cheat sheets for popular frameworks and tools used for building APIs.
-
-- [FastAPI](api/fastapi): A fast and efficient Python web framework for building RESTful APIs with automatic OpenAPI documentation.
-- [Ray](api/ray): A distributed computing framework designed for scaling Python applications effortlessly, commonly used for machine learning workloads.
+| Subsection | Description | Link |
+|------------|-------------|------|
+| FastAPI | Fast Python web framework for RESTful APIs | [FastAPI](api/fastapi) |
+| Ray | Distributed computing framework for ML workloads | [Ray](api/ray) |
 
 ## BI
-BI as code (open source examples).
+| Subsection | Description | Link |
+|------------|-------------|------|
+| BI as Code | Open source examples for Business Intelligence | [BI](bi) |
 
 ## Clouds
-Guidelines and tips for leveraging cloud platforms to develop and deploy AI solutions.
-
-- [AWS](clouds/aws): Key services and best practices for using Amazon Web Services in AI projects.
-- [Azure](clouds/azure):AI-related offerings from Microsoft Azure, including cognitive services and machine learning tools.
-- [GCP](clouds/gcp): Insights into Google Cloud Platform's AI capabilities, such as Vertex AI and BigQuery ML.
-- [OVH](clouds/ovh): Tips for utilizing OVHcloud for hosting AI workloads and storage solutions.
-- [Scaleway](clouds/scaleway): Guides for leveraging Scaleway's cloud services in AI applications.
+| Subsection | Description | Link |
+|------------|-------------|------|
+| AWS | Amazon Web Services for AI projects | [AWS](clouds/aws) |
+| Azure | Microsoft Azure AI services | [Azure](clouds/azure) |
+| GCP | Google Cloud Platform AI capabilities | [GCP](clouds/gcp) |
+| OVH | OVHcloud for AI workloads | [OVH](clouds/ovh) |
+| Scaleway | Scaleway cloud services for AI | [Scaleway](clouds/scaleway) |
 
 ## Generative AI
-Focused on concepts, tools, and best practices for generative AI development.
-
-- [Agents:](generativeai/agents) Explanation of AI agents, their architectures, and use cases in automation and decision-making.
-  - [agentarium](generativeai/agents/agentarium/)
-  - [autogen](generativeai/agents/autogen/)
-- [Evaluation](generativeai/evaluations/)
-- [Post-traning](generativeai/post-traning):
-  - [finetuning](generativeai/post-traning/finetuning)
-  - [rlhf](generativeai/post-traning/rlhf) 
-- [genai-model-providers](generativeai/genai-model-providers/): Comparative insights into popular generative AI providers and their APIs.
-- [Hallucinations:](generativeai/hallucinations) Understanding and mitigating hallucination risks in generative models.
-- [Inference:](generativeai/inference) xxx
-- [RAG:](generativeai/agents) Retrieval-Augmented Generation (RAG) techniques to combine generative models with knowledge retrieval.
-- [Structure outputs:](generativeai/structured-outputs) 
-- [Tools:](generativeai/agents) 
-- [Unified Interface:](generativeai/unified-interface) Implementing a single interface for interacting with multiple generative AI providers.
-  - [aisuite](generativeai/unified-interface/aisuite/)
-  - [litellm](generativeai/unified-interface/litellm/)
+| Subsection | Description | Link |
+|------------|-------------|------|
+| Agents | AI agents and architectures | [Agents](generativeai/agents) |
+| Evaluation | Model evaluation techniques | [Evaluation](generativeai/evaluations/) |
+| Post-training | Fine-tuning and RLHF | [Post-training](generativeai/post-traning) |
+| Model Providers | Generative AI provider comparisons | [Providers](generativeai/genai-model-providers/) |
+| Hallucinations | Mitigating model hallucinations | [Hallucinations](generativeai/hallucinations) |
+| Inference | Model inference optimization | [Inference](generativeai/inference) |
+| RAG | Retrieval-Augmented Generation | [RAG](generativeai/agents) |
+| Structured Outputs | Output formatting and control | [Structured Outputs](generativeai/structured-outputs) |
+| Tools | AI development tools | [Tools](generativeai/agents) |
+| Unified Interface | Multi-provider interfaces | [Unified Interface](generativeai/unified-interface) |
 
 ## Git
+| Subsection | Description | Link |
+|------------|-------------|------|
+| Git | Version control and collaboration | [Git](git) |
 
 ## MLOps
-Methodologies, tools, and processes to streamline machine learning development, deployment, and monitoring.  
+| Subsection | Description | Link |
+|------------|-------------|------|
+| ZenML | MLOps framework | [ZenML](mlops/zenml) |
 
-- [zenml](mlops/zenml)
+## Predictive AI
+| Subsection | Description | Link |
+|------------|-------------|------|
+| scikit-learn | Machine learning library | [sklearn](modeling/sklearn) |
+| skrub | Data preparation library | [skrub](modeling/skrub) |
+| skore | Best practices for scikit-learn | [skore](modeling/skore) |
+| skops | Model sharing and deployment | [skops](modeling/skops) |
 
-## [Predictive AI](/predictiveai/README.md)
-
-Highlights tools and libraries for traditional and advanced machine learning tasks.
-- [sklearn](modeling/sklearn): Cheat sheets for scikit-learn, a versatile library for machine learning in Python.
-- [skrub](modeling/skrub): A library for data preparation and cleaning tasks tailored for machine learning workflows.
-- [skore](modeling/skore): skore is a Python open-source library designed to help data scientists apply recommended practices and avoid common methodological pitfalls in `scikit-learn`.
-- [skops](modeling/skops): Python library helping you share a `scikit-learn` based models and put them in production.
-
-## [Python](/python/)
-
-- [poetry](python/poetry): A dependency management and packaging tool that simplifies Python project workflows.  
-- [pyenv](python/pyenv): A Python version management tool that allows switching between multiple Python installations.  
-- [UV](python/uv): A fast Python package installer and virtual environment manager designed as an alternative to pip.  
+## Python
+| Subsection | Description | Link |
+|------------|-------------|------|
+| Poetry | Dependency management | [Poetry](python/poetry) |
+| pyenv | Python version management | [pyenv](python/pyenv) |
+| UV | Fast package installer | [UV](python/uv) |
 
 ## Trustworthy AI
-Guidance on ensuring AI systems are fair, robust, explainable, and compliant with ethical principles and regulatory standards.
+| Subsection | Description | Link |
+|------------|-------------|------|
+| AI Risk | Risk assessment frameworks | [AI Risk](trustworthyai/airisk) |
+| Principles | Ethical AI guidelines | [Principles](trustworthyai/principles/) |
+| Strategy | Trust and governance practices | [Strategy](trustworthyai/strategy) |
 
-- [airisk](trustworthyai/airisk): Frameworks and methodologies for assessing and mitigating risks in AI systems.  
-- [principles](trustworthyai/principles/): Core principles and guidelines for building responsible and transparent AI models.  
-- [strategy](trustworthyai/strategy): Best practices for integrating trust, governance, and accountability into AI development.
-
-## Frontend 
-- [Streamlit]
-- [Django](https://www.djangoproject.com/)
-- [Tailwindcss](https://tailwindcss.com/)
+## Frontend
+| Subsection | Description | Link |
+|------------|-------------|------|
+| Streamlit | Data app framework | [Streamlit](frontend/streamlit) |
+| Django | Web framework | [Django](frontend/django) |
+| Tailwind CSS | Utility-first CSS framework | [Tailwind CSS](frontend/tailwindcss) |
 
