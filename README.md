@@ -37,18 +37,18 @@ A curated list of references, including official documentation, blogs, and resea
 
 # Sections
 
-## API
+## [API](api)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | FastAPI | Fast Python web framework for RESTful APIs | [FastAPI](api/fastapi) |
 | Ray | Distributed computing framework for ML workloads | [Ray](api/ray) |
 
-## BI
+## [BI](bi)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | BI as Code | Open source examples for Business Intelligence | [BI](bi) |
 
-## Clouds
+## [Clouds](clouds)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | AWS | Amazon Web Services for AI projects | [AWS](clouds/aws) |
@@ -57,7 +57,7 @@ A curated list of references, including official documentation, blogs, and resea
 | OVH | OVHcloud for AI workloads | [OVH](clouds/ovh) |
 | Scaleway | Scaleway cloud services for AI | [Scaleway](clouds/scaleway) |
 
-## Generative AI
+## [Generative AI](generativeai)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Agents | AI agents and architectures | [Agents](generativeai/agents) |
@@ -71,17 +71,17 @@ A curated list of references, including official documentation, blogs, and resea
 | Tools | AI development tools | [Tools](generativeai/agents) |
 | Unified Interface | Multi-provider interfaces | [Unified Interface](generativeai/unified-interface) |
 
-## Git
+## [Git](git)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Git | Version control and collaboration | [Git](git) |
 
-## MLOps
+## [MLOps](mlops)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | ZenML | MLOps framework | [ZenML](mlops/zenml) |
 
-## Predictive AI
+## [Predictive AI](predictiveai)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | scikit-learn | Machine learning library | [sklearn](modeling/sklearn) |
@@ -89,26 +89,26 @@ A curated list of references, including official documentation, blogs, and resea
 | skore | Best practices for scikit-learn | [skore](modeling/skore) |
 | skops | Model sharing and deployment | [skops](modeling/skops) |
 
-## Python
+## [Python](python)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Poetry | Dependency management | [Poetry](python/poetry) |
 | pyenv | Python version management | [pyenv](python/pyenv) |
 | UV | Fast package installer | [UV](python/uv) |
 
-## Rust
+## [Rust](rust)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Rust | System programming language | [Rust](rust) |
 
-## Trustworthy AI
+## [Trustworthy AI](trustworthyai)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | AI Risk | Risk assessment frameworks | [AI Risk](trustworthyai/airisk) |
 | Principles | Ethical AI guidelines | [Principles](trustworthyai/principles/) |
 | Strategy | Trust and governance practices | [Strategy](trustworthyai/strategy) |
 
-## Frontend
+## [Frontend](frontend)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Streamlit | Data app framework | [Streamlit](frontend/streamlit) |
