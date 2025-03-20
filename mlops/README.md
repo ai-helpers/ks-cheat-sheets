@@ -34,6 +34,8 @@ Sources:
 
 
 ## Articles 
+
+- [Medium article - MLOps package](https://fmind.medium.com/more-automation-more-reproducibility-mlops-python-package-v4-1-0-ba62ac1897f4)
 - [RICE - priorization framework](https://marily.substack.com/p/rice-a-a-prioritization-framework?utm_source=post-email-title&publication_id=547073&post_id=155290254&utm_campaign=email-post-title&isFreemail=true&r=1gsxm1&triedRedirect=true&utm_medium=email)
 - [Keynote - ML Engineering rules](https://media.licdn.com/dms/document/media/v2/D4D1FAQFyZb9o5dsizw/feedshare-document-pdf-analyzed/feedshare-document-pdf-analyzed/0/1732900953798?e=1738195200&v=beta&t=EVTcodB7NwaJXHqLieI8UO3uN9VVu6DwSYvaeMpoaIo)
 - [Towards Trustworthy Machine Learning in Production: An Overview of the Robustness in MLOps Approach](https://dl.acm.org/doi/full/10.1145/3708497?af=R)
