@@ -27,11 +27,9 @@ This repository provides a structured and categorized collection of cheat sheets
 
 # Quick Links
 
-| [🔌 API](#api) | [📊 BI](#bi) | [☁️ Clouds](#clouds) |
-|----------------|--------------|-------------------|
-| [🤖 Generative AI](#generative-ai) | [🔄 Git](#git) | [⚙️ MLOps](#mlops) |
-| [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) |
-| [⚖️ Trustworthy AI](#trustworthy-ai) | | |
+| [🔌 API](#api) | [📊 BI](#bi) | [☁️ Clouds](#clouds) | [🤖 Generative AI](#generative-ai) | [🔄 Git](#git) |
+|----------------|--------------|-------------------|--------------------------------|---------------|
+| [⚙️ MLOps](#mlops) | [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) | [⚖️ Trustworthy AI](#trustworthy-ai) |
 
 # References
 
