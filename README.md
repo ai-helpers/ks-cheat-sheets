@@ -17,6 +17,7 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [MLOps](#mlops)
   - [Predictive AI](#predictive-ai)
   - [Python](#python)
+  - [Rust](#rust)
   - [Trustworthy AI](#trustworthy-ai)
   - [Frontend](#frontend)
 
@@ -26,18 +27,11 @@ This repository provides a structured and categorized collection of cheat sheets
 
 # Quick Links
 
-| Section | Description |
-|---------|-------------|
-| [API](#api) | Frameworks and tools for building APIs |
-| [BI](#bi) | Business Intelligence as code |
-| [Clouds](#clouds) | Cloud platforms for AI solutions |
-| [Generative AI](#generative-ai) | Tools and practices for generative AI |
-| [Git](#git) | Version control and collaboration |
-| [MLOps](#mlops) | Machine learning operations |
-| [Predictive AI](#predictive-ai) | Traditional and advanced ML tools |
-| [Python](#python) | Python development tools |
-| [Trustworthy AI](#trustworthy-ai) | Ethical AI and risk management |
-| [Frontend](#frontend) | Frontend development tools |
+| [🔌 API](#api) | [📊 BI](#bi) | [☁️ Clouds](#clouds) |
+|----------------|--------------|-------------------|
+| [🤖 Generative AI](#generative-ai) | [🔄 Git](#git) | [⚙️ MLOps](#mlops) |
+| [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) |
+| [⚖️ Trustworthy AI](#trustworthy-ai) | | |
 
 # References
 
@@ -103,6 +97,11 @@ A curated list of references, including official documentation, blogs, and resea
 | Poetry | Dependency management | [Poetry](python/poetry) |
 | pyenv | Python version management | [pyenv](python/pyenv) |
 | UV | Fast package installer | [UV](python/uv) |
+
+## Rust
+| Subsection | Description | Link |
+|------------|-------------|------|
+| Rust | System programming language | [Rust](rust) |
 
 ## Trustworthy AI
 | Subsection | Description | Link |
