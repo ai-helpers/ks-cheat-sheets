@@ -2,7 +2,11 @@
 
 A collection of cheat sheets and concise documentation aimed at facilitating knowledge sharing on various AI-related tools, technologies, and methodologies. This repository is intended to provide quick references and practical guides for both newcomers and experienced practitioners in the AI field.
 
+
 # Table of Contents (ToC)
+
+<details>
+  <summary>Click me</summary>
 - [Knowledge sharing - Cheat sheets (AI)](#knowledge-sharing---cheat-sheets-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
@@ -20,6 +24,8 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [Trustworthy AI](#trustworthy-ai)
   - [Frontend](#frontend)
 - [Related repository](#related-repository)
+</details>
+
 
 # Overview
 
