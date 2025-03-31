@@ -39,6 +39,7 @@
 - [Github - Eli5](https://github.com/eli5-org/eli5)
 - [Github - AIX360](https://github.com/Trusted-AI/AIX360)
 - [Github - InterpretML](https://github.com/interpretml/interpret)
+- [Doc - ModEva](https://modeva.ai/_build/html/index.html)
 
 ### Teams
 - [TADJ](https://lnkd.in/eecHfhdc)
