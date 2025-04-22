@@ -62,3 +62,4 @@
 - [Github - lmms eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): evaluation module from microsoft
 - [Arxiv - Agent as a Judge: Evaluate Agents with Agents](https://arxiv.org/pdf/2410.10934)
 - [How to implement LLM as a Judge to test AI Agents?](https://www.giskard.ai/knowledge/how-to-implement-llm-as-a-judge-to-test-ai-agents-part-1?utm_content=buffer3aded&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
+- [Github - deepeval](https://github.com/confident-ai/deepeval)
