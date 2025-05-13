@@ -7,4 +7,5 @@
   - [Lnkd Post](https://www.linkedin.com/posts/oliver-patel_the-unofficial-aigp-resource-guide-top-100-activity-7297960170968473600-2w1U?utm_source=share&utm_medium=member_desktop&rcm=ACoAABY4zkYBTs23buQ5AEQ-XagrOSQPiyJTUNs)
 - [Creating your AI Governance Policy](https://www.ethos-ai.org/p/creating-your-ai-governance-policy)
   - [Template_Ai_Governance_Policy.pdf](https://github.com/user-attachments/files/19283125/Ai_Governance_Policy.pdf)
+- [Google Pair - Guidebook](https://pair.withgoogle.com/guidebook/)
 
