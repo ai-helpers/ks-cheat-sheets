@@ -1,6 +1,7 @@
 # References
 
 - [Arxiv - Evaluate Agent with Agent](https://arxiv.org/pdf/2410.10934)
+- [GitHub - Eval-Assist (IBM) - LLM as a Judge](https://github.com/IBM/eval-assist)
 - [BLEU - ROUGE score](https://clementbm.github.io/theory/2021/12/23/rouge-bleu-scores.html)
 - [Giskard - LLM as a judge](https://www.giskard.ai/knowledge/how-to-implement-llm-as-a-judge-to-test-ai-agents-part-1?utm_content=buffer3aded&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
 - [Arxiv - Lessons from red teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
