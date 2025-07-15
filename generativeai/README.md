@@ -17,7 +17,11 @@ A collection of resources, models, and tools for working with generative AI.
   - [agentarium](agents/agentarium) – A framework for building and evaluating AI agents.  
   - [autogen](agents/autogen) – Automation tools for generative AI-based workflows.  
 - [Evaluations](evaluations/) – Methods and benchmarks for assessing model performance.  
-- [Finetuning](finetuning/) – Techniques and resources for fine-tuning generative models.  
+- [Finetuning](finetuning/) – Techniques and resources for fine-tuning generative models.
+  - [Unsloth AI](https://github.com/unslothai/unsloth)
+  - [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory)
+  - [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)
+  - [Axolotl](https://github.com/axolotl-ai-cloud/axolotl)
 - [GenAI Model Providers](genai-model-providers/) – Integration with different AI model providers.  
   - [Anthropic](genai-model-providers/anthropic) – Resources related to Anthropic's AI models.  
   - [MistralAI](genai-model-providers/mistralai) – Resources related to Mistral AI models.  
