@@ -126,3 +126,11 @@ A curated list of references, including official documentation, blogs, and resea
 
 - [Github - AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
 - [Github - Data Engineering Helpers (ks-cheat-sheets)](https://github.com/data-engineering-helpers/ks-cheat-sheets)
+
+# Others
+
+## Data
+
+- [Medium - Synthetic data tools](https://medium.com/statice/synthetic-data-tools-open-source-or-commercial-a-guide-to-building-vs-buying-580ddeee30e8)
+- [Github - Awesome synthetic data (statice)](https://github.com/statice/awesome-synthetic-data?tab=readme-ov-file#open-source-tools)
+- [Github - Awesome synthetic data (gretelai)](https://github.com/gretelai/awesome-synthetic-data)
