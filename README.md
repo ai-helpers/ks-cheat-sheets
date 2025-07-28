@@ -131,6 +131,13 @@ A curated list of references, including official documentation, blogs, and resea
 
 ## Data
 
+References
 - [Medium - Synthetic data tools](https://medium.com/statice/synthetic-data-tools-open-source-or-commercial-a-guide-to-building-vs-buying-580ddeee30e8)
 - [Github - Awesome synthetic data (statice)](https://github.com/statice/awesome-synthetic-data?tab=readme-ov-file#open-source-tools)
 - [Github - Awesome synthetic data (gretelai)](https://github.com/gretelai/awesome-synthetic-data)
+
+### Opendata
+
+- [Google - dataset search](https://datasetsearch.research.google.com)
+- [UC Irvine - ML reporitory](https://archive.ics.uci.edu)
+- [US Data Gov](https://data.gov)
