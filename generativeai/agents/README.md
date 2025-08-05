@@ -1,3 +1,63 @@
+# Agents framework
+
+> An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions (often via external tools) to fulfill tasks.
+
+## Langchain (modular)
+
+Build custom LLM agents using reusable components. Design flexible, logic-drivenagent flows.
+- Tool chaining
+- Memomy modules
+- Agent execution
+
+## CrewAI (Collaborative)
+
+Mutli-agent system with role assigment and task coordination. Ideal for building agent teams with structure.
+- Task orchestration
+- Role distribution
+- Agent teamwork
+
+## AutoGen (Microsoft)
+
+Enable LLM-to-LLM and user-LLM collaboration via dialogue. Great for multi-turn LLM planning tasks.
+- Assistant-user loops
+- Structured dialogue planning
+- Tool support
+
+## MetaGPT (Engineering)
+
+Simulates dev teams to build structured software with agents.
+- Roles for Pm, dev, QA
+- Design-first approach
+- Output validation
+
+## LangGraph (reactive)
+
+Graph-based execution model for reactive, stateful flows. Excellent for memory and loop heavy logic.
+- Node-based task flow
+- Cycles and retries
+- Multi-agent workflows
+
+## AgentOps (Monitoring)
+
+Track and analyze agent behavior in production. Real-time dasboards for running agents.
+- Agent health metrics
+- Logging and debugging
+- Performance alerts
+
+## Superagent (open-source)
+
+Drop-in platform with built-in-tools UI and API endpoints. Fast ssndbox for agent experiments.
+- VectorDB + memory
+- REST API access
+- UI for agent interaction
+
+## Haystack agents (dev-centric)
+
+Optimized for RAG pipelines and reasoning agents. Best suited for search + logic-based agents.
+- Modular piplines
+- LLML integration
+- Multi-turn task
+
 # References
 
 - [Arxiv - Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416)
@@ -20,9 +80,6 @@
 - [Github - Browser use (open source openai operator)](https://github.com/browser-use/browser-use)
 - [Data Engineering weekly - The ascending arc of AI Agents](https://www.dataengineeringweekly.com/p/the-ascending-arc-of-ai-agents)
 
-# Agents
-
-> An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions (often via external tools) to fulfill tasks.
 
 # Learning
 - [HF Agent Course](https://huggingface.co/learn/agents-course/en/unit0/introduction)
