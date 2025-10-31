@@ -2,13 +2,8 @@
 
 A collection of cheat sheets and concise documentation aimed at facilitating knowledge sharing on various AI-related tools, technologies, and methodologies. This repository is intended to provide quick references and practical guides for both newcomers and experienced practitioners in the AI field.
 
+## Table of Contents (ToC)
 
-# Table of Contents (ToC)
-
-<details>
-  <summary>Click me</summary>
-
-- [Knowledge sharing - Cheat sheets (AI)](#knowledge-sharing---cheat-sheets-ai)
 - [Table of Contents (ToC)](#table-of-contents-toc)
 - [Overview](#overview)
 - [Quick Links](#quick-links)
@@ -25,10 +20,11 @@ A collection of cheat sheets and concise documentation aimed at facilitating kno
   - [Trustworthy AI](#trustworthy-ai)
   - [Frontend](#frontend)
 - [Related repository](#related-repository)
-</details>
+- [Others](#others)
+  - [Data](#data)
+    - [Opendata](#opendata)
 
-
-# Overview
+## Overview
 
 This repository provides a structured and categorized collection of cheat sheets, offering rapid access to essential knowledge for developing, deploying, and managing AI systems. 
 
@@ -36,26 +32,26 @@ It covers a wide array of topics, including APIs, cloud services, generative AI 
 
 A curated list of references, including official documentation, blogs, and research papers, to support the content provided in the cheat sheets.
 
-# Quick Links
+## Quick Links
 
 | [🔌 API](#api) | [📊 BI](#bi) | [☁️ Clouds](#clouds) | [🤖 Generative AI](#generative-ai) | [🔄 Git](#git) |
 |----------------|--------------|-------------------|--------------------------------|---------------|
 | [⚙️ MLOps](#mlops) | [📈 Predictive AI](#predictive-ai) | [🐍 Python](#python) | [🦀 Rust](#rust) | [⚖️ Trustworthy AI](#trustworthy-ai) |
 
-# Sections
+## Sections
 
-## [API](api)
+### [API](api)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | FastAPI | Fast Python web framework for RESTful APIs | [FastAPI](api/fastapi) |
 | Ray | Distributed computing framework for ML workloads | [Ray](api/ray) |
 
-## [BI](bi)
+### [BI](bi)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | BI as Code | Open source examples for Business Intelligence | [BI](bi) |
 
-## [Clouds](clouds)
+### [Clouds](clouds)
 | Subsection | Description | Link |
 |------------|-------------|------|
 | AWS | Amazon Web Services for AI projects | [AWS](clouds/aws) |
@@ -64,7 +60,8 @@ A curated list of references, including official documentation, blogs, and resea
 | OVH | OVHcloud for AI workloads | [OVH](clouds/ovh) |
 | Scaleway | Scaleway cloud services for AI | [Scaleway](clouds/scaleway) |
 
-## [Generative AI](generativeai)
+### [Generative AI](generativeai)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Agents | AI agents and architectures | [Agents](generativeai/agents) |
@@ -78,17 +75,20 @@ A curated list of references, including official documentation, blogs, and resea
 | Tools | AI development tools | [Tools](generativeai/agents) |
 | Unified Interface | Multi-provider interfaces | [Unified Interface](generativeai/unified-interface) |
 
-## [Git](git)
+### [Git](git)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Git | Version control and collaboration | [Git](git) |
 
-## [MLOps](mlops)
+### [MLOps](mlops)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | ZenML | MLOps framework | [ZenML](mlops/zenml) |
 
-## [Predictive AI](predictiveai)
+### [Predictive AI](predictiveai)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | scikit-learn | Machine learning library | [sklearn](modeling/sklearn) |
@@ -96,47 +96,52 @@ A curated list of references, including official documentation, blogs, and resea
 | skore | Best practices for scikit-learn | [skore](modeling/skore) |
 | skops | Model sharing and deployment | [skops](modeling/skops) |
 
-## [Python](python)
+### [Python](python)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Poetry | Dependency management | [Poetry](python/poetry) |
 | pyenv | Python version management | [pyenv](python/pyenv) |
 | UV | Fast package installer | [UV](python/uv) |
 
-## [Rust](rust)
+### [Rust](rust)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Rust | System programming language | [Rust](rust) |
 
-## [Trustworthy AI](trustworthyai)
+### [Trustworthy AI](trustworthyai)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | AI Risk | Risk assessment frameworks | [AI Risk](trustworthyai/airisk) |
 | Principles | Ethical AI guidelines | [Principles](trustworthyai/principles/) |
 | Strategy | Trust and governance practices | [Strategy](trustworthyai/strategy) |
 
-## [Frontend](frontend)
+### [Frontend](frontend)
+
 | Subsection | Description | Link |
 |------------|-------------|------|
 | Streamlit | Data app framework | [Streamlit](frontend/streamlit) |
 | Django | Web framework | [Django](frontend/django) |
 | Tailwind CSS | Utility-first CSS framework | [Tailwind CSS](frontend/tailwindcss) |
 
-# Related repository 
+## Related repository
 
 - [Github - AI Helpers Jupyter-Book](https://github.com/ai-helpers/ai-helpers-book/)
 - [Github - Data Engineering Helpers (ks-cheat-sheets)](https://github.com/data-engineering-helpers/ks-cheat-sheets)
 
-# Others
+## Others
 
-## Data
+### Data
 
-References
+References:
+
 - [Medium - Synthetic data tools](https://medium.com/statice/synthetic-data-tools-open-source-or-commercial-a-guide-to-building-vs-buying-580ddeee30e8)
 - [Github - Awesome synthetic data (statice)](https://github.com/statice/awesome-synthetic-data?tab=readme-ov-file#open-source-tools)
 - [Github - Awesome synthetic data (gretelai)](https://github.com/gretelai/awesome-synthetic-data)
 
-### Opendata
+#### Opendata
 
 - [Google - dataset search](https://datasetsearch.research.google.com)
 - [UC Irvine - ML reporitory](https://archive.ics.uci.edu)
