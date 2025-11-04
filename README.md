@@ -2,6 +2,8 @@
 
 A collection of cheat sheets and concise documentation aimed at facilitating knowledge sharing on various AI-related tools, technologies, and methodologies. This repository is intended to provide quick references and practical guides for both newcomers and experienced practitioners in the AI field.
 
+* The KS cheat sheet (AI) can be found at the following URL: https://ai-helpers.github.io/kscs-website/
+
 ## Table of Contents (ToC)
 
 - [Table of Contents (ToC)](#table-of-contents-toc)
