@@ -16,6 +16,7 @@
 
 ## References
 
+- [Github - Redhat AI services (modelcar catalog)](https://github.com/redhat-ai-services/modelcar-catalog/tree/main)
 - [GitHub - DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/tree/main)
   - [Bedrock deployment (AWS)](https://community.aws/content/2sECf0xbpgEIaUpAJcwbrSnIGfu/deploying-deepseek-r1-model-on-amazon-bedrock)
   - [Arxiv - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948)
