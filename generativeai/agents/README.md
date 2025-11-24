@@ -4,9 +4,9 @@
 
 Resources:
 - [Agentic design pattern](https://github.com/sarwarbeing-ai/Agentic_Design_Patterns/blob/main/Agentic_Design_Patterns.pdf)
+- [Swarm Multi-Agent Pattern](https://strandsagents.com/latest/documentation/docs/user-guide/concepts/multi-agent/swarm/)
 
-
-# “Agentic" framework
+# “Agentic" solutions
 
 ## ADK+Agent Engine (GCP)
 
@@ -16,7 +16,7 @@ Resources:
 ## Strands+AgentCore (AWS)
 
 - [Github strands](https://github.com/strands-agents/sdk-python)
-  - [Swarm Multi-Agent Pattern]()
+  - [Swarm Multi-Agent Pattern](https://strandsagents.com/latest/documentation/docs/user-guide/concepts/multi-agent/swarm/)
 - [AWS - AgentCore](https://aws.amazon.com/fr/bedrock/agentcore/)
 
 ## Kagent (Kubernetes/Openshift)
@@ -26,9 +26,9 @@ Resources:
 
 ## Databricks (AgentBricks)
 
-- 
+ Coming soon
 
-# Framework
+# GenAI Frameworks
 ## Langchain (modular)
 
 Build custom LLM agents using reusable components. Design flexible, logic-drivenagent flows.
