@@ -4,6 +4,7 @@
 
 Resources:
 - [Agentic design pattern](https://github.com/sarwarbeing-ai/Agentic_Design_Patterns/blob/main/Agentic_Design_Patterns.pdf)
+- [All Agentic Architecture](https://github.com/FareedKhan-dev/all-agentic-architectures)
 - [Swarm Multi-Agent Pattern](https://strandsagents.com/latest/documentation/docs/user-guide/concepts/multi-agent/swarm/)
 
 # “Agentic" solutions
