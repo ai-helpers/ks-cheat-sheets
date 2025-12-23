@@ -10,3 +10,4 @@
     - [git-flow tool and cheasheet](https://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html)
   - [github-flow](https://docs.github.com/en/get-started/using-github/github-flow)
   - [gitlab-flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)
+  - [remove committed-files](https://graphite.com/guides/git-remove-committed-files)
