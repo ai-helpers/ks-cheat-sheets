@@ -11,6 +11,10 @@ Resources:
 
 # “Agentic" solutions
 
+## Red Hat Openshift (RHOAI, incl. Llamastack)
+
+- [Github - agentic-claim-demo (example)](https://github.com/mouachan/agentic-claim-demo/tree/main)
+
 ## ADK+Agent Engine (GCP)
 
 - [ADK](https://github.com/google/adk-python)
