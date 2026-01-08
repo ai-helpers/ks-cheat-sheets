@@ -8,6 +8,7 @@
 
 ## Open-Source OCR models and toolkit - Document AI
 
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR): Ready-to-use OCR with 80+ supported languages and all popular writing scripts including: Latin, Chinese, Arabic, Devanagari, Cyrillic, etc.
 - [Chandra](https://github.com/datalab-to/chandra): Chandra is a highly accurate OCR model that converts images and PDFs into structured HTML/Markdown/JSON while preserving layout information.
 - [SmolDocling](https://github.com/docling-project/docling): An Ultra-Compact, Open-Source Vision-Language Model for Document Conversion
   - [Paper](https://arxiv.org/abs/2503.11576)
