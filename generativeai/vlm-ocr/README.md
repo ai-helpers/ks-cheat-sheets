@@ -35,3 +35,4 @@
 ## Others References
 
 - [LandingAI](https://landing.ai/)
+- [Finetuning qwen3 vl](https://debuggercafe.com/fine-tuning-qwen3-vl/)
