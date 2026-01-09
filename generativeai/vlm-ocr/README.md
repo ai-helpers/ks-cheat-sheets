@@ -33,6 +33,16 @@
   - [Mistral doc](https://docs.mistral.ai/capabilities/document/)
 - [Mistral Document AI](https://docs.mistral.ai/capabilities/document_ai)
 
+## Metrics
+
+## Benchmark
+
+## Cookbooks
+
+- [Mistral Document AI](https://docs.mistral.ai/capabilities/document_ai/basic_ocr)
+  - [Mistral - Document AI (batch_ocr)](https://colab.research.google.com/github/mistralai/cookbook/blob/main/mistral/ocr/batch_ocr.ipynb)
+  - [Mistral - Document AI (tool usage)](https://colab.research.google.com/github/mistralai/cookbook/blob/main/mistral/ocr/tool_usage.ipynb)
+
 ## Others References
 
 - [LandingAI](https://landing.ai/)
