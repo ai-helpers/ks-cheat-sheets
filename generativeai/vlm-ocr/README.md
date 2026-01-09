@@ -35,8 +35,9 @@
 
 ## Metrics
 
-- CER (Character Error Rate)
-- WER (Word Error Rate)
+- [Github - fastwer](https://github.com/kahne/fastwer)
+  - CER (Character Error Rate)
+  - WER (Word Error Rate)
 
 ## Benchmark
 
