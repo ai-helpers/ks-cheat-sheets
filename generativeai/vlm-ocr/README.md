@@ -37,6 +37,9 @@
 
 ## Benchmark
 
+- [Github - OmniDocBench](https://github.com/opendatalab/OmniDocBench/tree/main)
+- [Fox - Benchmark](https://github.com/ucaslcl/Fox/tree/main)
+
 ## Cookbooks
 
 - [Mistral Document AI](https://docs.mistral.ai/capabilities/document_ai/basic_ocr)
