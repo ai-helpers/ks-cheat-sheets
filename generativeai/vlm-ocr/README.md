@@ -35,6 +35,9 @@
 
 ## Metrics
 
+- CER (Character Error Rate)
+- WER (Word Error Rate)
+
 ## Benchmark
 
 - [Github - OmniDocBench](https://github.com/opendatalab/OmniDocBench/tree/main)
