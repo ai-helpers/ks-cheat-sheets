@@ -28,9 +28,10 @@
 - [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL): Alibaba’s multimodal model with strong OCR and layout capabilities. Useful for mixed-content documents
 - [LLaVA-1.6](https://lnkd.in/eHk_rknu): Vision-language assistant with OCR capabilities, enabling document Q&A and visual reasoning
 - [Gemma-3 Vision](https://huggingface.co/google/gemma-3-27b-it): Google’s open multimodal model tuned for document tasks and layout-aware OCR
-- [Mistral-OCR](https://github.com/mistralai): A fast, lightweight model optimized for printed and handwritten text.
+- [Mistral-OCR](https://github.com/mistralai): (deprecated) A fast, lightweight model optimized for printed and handwritten text.
   - [Mistral - Mistral OCR](https://mistral.ai/fr/news/mistral-ocr)
   - [Mistral doc](https://docs.mistral.ai/capabilities/document/)
+- [Mistral Document AI](https://docs.mistral.ai/capabilities/document_ai)
 
 ## Others References
 
