@@ -7,6 +7,8 @@
   - [Leaderboard](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/leaderboard/README.md)
 - [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
 - [OpenCompass](https://github.com/open-compass/opencompass)
+- [huggingface evaluate](https://github.com/huggingface/evaluate)
+- [DocILE](https://github.com/rossumai/docile)
 
 
 ## References
