@@ -6,7 +6,7 @@
   - [Tasks](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/README.md)
   - [Leaderboard](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/leaderboard/README.md)
 - [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
-- 
+- [OpenCompass](https://github.com/open-compass/opencompass)
 
 
 ## References
