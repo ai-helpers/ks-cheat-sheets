@@ -14,6 +14,7 @@ Skills/tasks evaluation:
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 - [evalscope](https://github.com/modelscope/evalscope)
 - [AISBench benchmark](https://github.com/AISBench/benchmark/blob/master/README_en.md)
+- [FlagEvalMM](https://github.com/flageval-baai/FlagEvalMM?tab=readme-ov-file)
 
 Tech evaluation:
 
