@@ -9,7 +9,7 @@
 - [OpenCompass](https://github.com/open-compass/opencompass)
 - [huggingface evaluate](https://github.com/huggingface/evaluate)
 - [DocILE](https://github.com/rossumai/docile)
-
+- [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
 ## References
 
