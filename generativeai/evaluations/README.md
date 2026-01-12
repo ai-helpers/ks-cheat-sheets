@@ -10,6 +10,7 @@
 - [huggingface evaluate](https://github.com/huggingface/evaluate)
 - [DocILE](https://github.com/rossumai/docile)
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
+- [evalscope](https://github.com/modelscope/evalscope)
 
 ## References
 
