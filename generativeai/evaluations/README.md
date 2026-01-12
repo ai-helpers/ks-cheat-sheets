@@ -2,7 +2,8 @@
 
 ## Evaluation kit
 
-Skills:
+Skills/tasks evaluation:
+
 - [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/main): Language Model Evaluation Harness
   - [Tasks](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/README.md)
   - [Leaderboard](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/lm_eval/tasks/leaderboard/README.md)
@@ -14,9 +15,12 @@ Skills:
 - [evalscope](https://github.com/modelscope/evalscope)
 - [AISBench benchmark](https://github.com/AISBench/benchmark/blob/master/README_en.md)
 
-Tech
-- [vllm benchmark](https://github.com/vllm-project/vllm/tree/main/benchmarks)
-  - [GuideLLM](https://github.com/vllm-project/guidellm)
+Tech evaluation:
+
+- [vllm benchmark](https://github.com/vllm-project/vllm/tree/main/benchmarks): basic one
+  - [GuideLLM](https://github.com/vllm-project/guidellm): more advanced
+    - [Metrics](https://github.com/vllm-project/guidellm/blob/main/docs/guides/metrics.md)
+    - [Datasets](https://github.com/vllm-project/guidellm/blob/main/docs/guides/datasets.md)
 
 ## References
 
