@@ -16,6 +16,9 @@ Skills/tasks evaluation:
 - [AISBench benchmark](https://github.com/AISBench/benchmark/blob/master/README_en.md)
 - [FlagEvalMM](https://github.com/flageval-baai/FlagEvalMM?tab=readme-ov-file)
 
+Agent
+- [Aws Labs - AgentEvalKit](https://github.com/awslabs/Agent-EvalKit)
+
 Tech evaluation:
 
 - [vllm benchmark](https://github.com/vllm-project/vllm/tree/main/benchmarks): basic one
