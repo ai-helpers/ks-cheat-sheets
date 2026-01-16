@@ -92,6 +92,345 @@ Optimized for RAG pipelines and reasoning agents. Best suited for search + logic
 - LLML integration
 - Multi-turn task
 
+# Cheat Sheet - Cloud Agent Creation
+
+## AWS Bedrock AgentCore (with Strands)
+
+### Option A: Quick Deployment with SDK
+
+#### 1. Installation
+
+```bash
+pip install bedrock-agentcore
+pip install strands-agents
+```
+
+#### 2. Minimal agent code
+
+```python
+from bedrock_agentcore.runtime import BedrockAgentCoreApp
+from strands import Agent
+
+app = BedrockAgentCoreApp()
+agent = Agent()
+
+@app.entrypoint
+def invoke(payload):
+    user_message = payload.get("prompt", "Hello")
+    result = agent(user_message)
+    return {"result": result.message}
+
+if __name__ == "__main__":
+    app.run()
+```
+
+#### 3. Local testing
+```bash
+python my_agent.py
+
+# Test the endpoint
+curl -X POST http://localhost:8080/invocations \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": "Hello world!"}'
+```
+
+#### 4. Deployment with Starter Toolkit
+```bash
+# Installation
+pip install bedrock-agentcore-starter-toolkit
+
+# Configuration
+agentcore configure --entrypoint agent_example.py
+
+# Deployment
+agentcore launch
+
+# Test
+agentcore invoke '{"prompt": "Hello"}'
+```
+
+### Option B: Custom Deployment with FastAPI
+
+#### 1. Project structure
+```
+my-custom-agent/
+├── agent.py              # FastAPI application
+├── Dockerfile            # ARM64 container
+├── pyproject.toml
+└── uv.lock
+```
+
+#### 2. FastAPI code (agent.py)
+```python
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from strands import Agent
+
+app = FastAPI()
+strands_agent = Agent()
+
+class InvocationRequest(BaseModel):
+    input: dict
+
+@app.post("/invocations")
+async def invoke_agent(request: InvocationRequest):
+    user_message = request.input.get("prompt", "")
+    result = strands_agent(user_message)
+    return {"output": {"message": result.message}}
+
+@app.get("/ping")
+async def ping():
+    return {"status": "healthy"}
+```
+
+#### 3. ARM64 Dockerfile
+```dockerfile
+FROM --platform=linux/arm64 ghcr.io/astral-sh/uv:python3.11-bookworm-slim
+WORKDIR /app
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-cache
+COPY agent.py ./
+EXPOSE 8080
+CMD ["uv", "run", "uvicorn", "agent:app", "--host", "0.0.0.0", "--port", "8080"]
+```
+
+#### 4. Build and Deploy
+```bash
+# Build ARM64
+docker buildx build --platform linux/arm64 -t my-agent:arm64 --load .
+
+# Local test
+docker run --platform linux/arm64 -p 8080:8080 my-agent:arm64
+
+# Push to ECR
+aws ecr get-login-password --region us-west-2 | \
+  docker login --username AWS --password-stdin ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com
+
+docker tag my-agent:arm64 ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/my-agent:latest
+docker push ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/my-agent:latest
+```
+
+#### 5. Create Agent Runtime
+```python
+import boto3
+
+client = boto3.client('bedrock-agentcore-control')
+response = client.create_agent_runtime(
+    agentRuntimeName='my-strands-agent',
+    agentRuntimeArtifact={
+        'containerConfiguration': {
+            'containerUri': 'ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/my-agent:latest'
+        }
+    },
+    networkConfiguration={"networkMode": "PUBLIC"},
+    roleArn='arn:aws:iam::ACCOUNT_ID:role/AgentRuntimeRole'
+)
+```
+
+#### 6. Invoke the agent
+```python
+import boto3
+import json
+
+client = boto3.client('bedrock-agentcore')
+payload = json.dumps({"input": {"prompt": "Hello"}})
+
+response = client.invoke_agent_runtime(
+    agentRuntimeArn='arn:aws:bedrock-agentcore:us-west-2:ACCOUNT_ID:runtime/agent-name',
+    runtimeSessionId='session-id-minimum-33-chars-long',
+    payload=payload
+)
+```
+
+### AgentCore Observability
+
+#### Enable CloudWatch Transaction Search
+
+```bash
+# Via CloudWatch console:
+# Application Signals > Transaction search > Enable Transaction Search
+```
+
+#### Add ADOT to the agent
+
+```bash
+# requirements.txt
+aws-opentelemetry-distro>=0.10.1
+boto3
+
+# Launch with auto-instrumentation
+opentelemetry-instrument python my_agent.py
+
+# In Dockerfile
+CMD ["opentelemetry-instrument", "uvicorn", "agent:app", "--host", "0.0.0.0", "--port", "8080"]
+```
+
+---
+
+## Google ADK (Agent Development Kit)
+
+### Installation
+
+```bash
+pip install google-adk
+```
+
+### Create an agent project
+
+```bash
+# Create a new project
+adk create my_agent
+
+# Created structure:
+# my_agent/
+#   agent.py      # main code
+#   .env          # API keys
+#   __init__.py
+```
+
+### Basic agent code
+
+```python
+from google.adk.agents.llm_agent import Agent
+
+def get_current_time(city: str) -> dict:
+    """Returns the current time in a specified city."""
+    return {"status": "success", "city": city, "time": "10:30 AM"}
+
+root_agent = Agent(
+    model='gemini-3-flash-preview',
+    name='root_agent',
+    description="Tells the current time in a specified city.",
+    instruction="You are a helpful assistant that tells time.",
+    tools=[get_current_time],
+)
+```
+
+### Configuration
+
+```bash
+# .env file
+echo 'GOOGLE_API_KEY="YOUR_API_KEY"' > .env
+
+# Or for Vertex AI
+echo 'GOOGLE_CLOUD_PROJECT="YOUR_PROJECT_ID"' > .env
+```
+
+### Run the agent
+
+#### CLI Interface
+
+```bash
+adk run my_agent
+```
+
+#### Web Interface (development only)
+
+```bash
+# From the parent directory of my_agent/
+adk web --port 8000
+
+# Access http://localhost:8000
+```
+
+### Deploy to Agent Engine
+
+#### 1. Create deployment file (deploy.yaml)
+
+```yaml
+apiVersion: google.adk/v1
+kind: Deployment
+metadata:
+  name: my-agent
+spec:
+  project: YOUR_PROJECT_ID
+  location: us-central1
+  agent: my_agent
+```
+
+#### 2. Deploy
+
+```bash
+# Deploy the agent
+adk deploy --config deploy.yaml
+
+# Via gcloud (alternative)
+gcloud agent-engine agents deploy \
+  --project=PROJECT_ID \
+  --location=us-central1 \
+  --agent-path=my_agent/agent.py
+```
+
+#### 3. Test deployed agent
+
+```bash
+# Test via ADK
+adk test --endpoint https://YOUR_AGENT_URL
+
+# Test via curl
+curl -X POST https://YOUR_AGENT_URL/invoke \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "What time is it in Paris?"}'
+```
+
+### Multi-agent with ADK
+
+```python
+from google.adk.agents.llm_agent import Agent
+
+# Specialized weather agent
+weather_agent = Agent(
+    model='gemini-3-flash-preview',
+    name='weather_agent',
+    tools=[get_weather],
+)
+
+# Coordinator agent
+root_agent = Agent(
+    model='gemini-3-flash-preview',
+    name='coordinator',
+    tools=[weather_agent],  # Uses the agent as a tool
+)
+```
+
+### Google Cloud tools for ADK
+
+```python
+from google.adk.tools.google_cloud import BigQueryTool, VertexAISearchTool
+
+# BigQuery
+bq_tool = BigQueryTool(project_id="PROJECT_ID")
+
+# Vertex AI Search
+search_tool = VertexAISearchTool(
+    project_id="PROJECT_ID",
+    data_store_id="DATA_STORE_ID"
+)
+
+agent = Agent(
+    model='gemini-3-flash-preview',
+    tools=[bq_tool, search_tool],
+)
+```
+
+---
+
+## Quick Comparison
+
+| Feature | AWS Bedrock AgentCore | Google ADK |
+|---------|----------------------|------------|
+| **Framework** | Strands Agents | ADK (Agent Development Kit) |
+| **Installation** | `pip install bedrock-agentcore strands-agents` | `pip install google-adk` |
+| **CLI Command** | `agentcore` | `adk` |
+| **Supported Models** | Claude, Titan, etc. (via Bedrock) | Gemini (Vertex AI or API) |
+| **Deployment** | ECR + Agent Runtime (ARM64) | Agent Engine (GCP) |
+| **Required Port** | 8080 | Configurable |
+| **Required Endpoints** | `/invocations` (POST), `/ping` (GET) | Flexible |
+| **Architecture** | ARM64 container mandatory | Flexible |
+| **Observability** | CloudWatch + ADOT | Cloud Trace + Cloud Logging |
+| **Dev Interface** | Starter Toolkit | `adk web` |
+
 # References
 
 - [Arxiv - Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416)
