@@ -8,6 +8,7 @@ Resources:
 - [Swarm Multi-Agent Pattern](https://strandsagents.com/latest/documentation/docs/user-guide/concepts/multi-agent/swarm/)
 - [Github - Agent in Production](https://github.com/NirDiamant/agents-towards-production)
 - [Github - AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub)
+- [Github - AGentic Patterns course ](https://github.com/neural-maze/agentic-patterns-course)
 
 # “Agentic" solutions
 
