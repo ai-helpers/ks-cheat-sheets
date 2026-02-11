@@ -15,6 +15,12 @@ Template:
 
 # “Agentic" solutions
 
+## DAPR
+
+- [GitHub - Dapr](https://github.com/dapr)
+- [GitHub - Learn Agentic AI](https://github.com/panaversity/learn-agentic-ai)
+- [Diagrid](https://www.diagrid.io)
+
 ## Red Hat Openshift (RHOAI, incl. Llamastack)
 
 - [Github - agentic-claim-demo (example)](https://github.com/mouachan/agentic-claim-demo/tree/main)
