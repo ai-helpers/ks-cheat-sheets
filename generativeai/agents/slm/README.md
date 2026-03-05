@@ -11,3 +11,7 @@ It trades broad generalization for efficiency, offering faster inference, lower 
 
 They creaeted with techniques like quantization, pruning and distillation.
 Further compressing size while retaining task-specific accuracy.
+
+
+Alternative ollama:
+- Airllm: <https://github.com/lyogavin/airllm>
