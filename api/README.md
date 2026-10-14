@@ -6,6 +6,10 @@
 - [Ressources](#ressources)
 - [MCP - Ressources](#mcp---ressources)
 
+## Gateway
+
+- [Apache APISIX - AI Gateway (plugins)](https://apisix.apache.org/ai-gateway/)
+
 ## Ressources
 
 - [Huggingface - RAY x mlflow](https://huggingface.co/learn/cookbook/mlflow_ray_serve)
