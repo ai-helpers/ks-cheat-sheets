@@ -9,7 +9,7 @@ Resources:
 - [Github - Agent in Production](https://github.com/NirDiamant/agents-towards-production)
 - [Github - AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub)
 - [Github - AGentic Patterns course ](https://github.com/neural-maze/agentic-patterns-course)
-
+- [Github - Hands-on AI Agents](https://github.com/agulli/atlas-agents)
 Template: 
 - [Github - Full stack solution template for agentcore](https://github.com/awslabs/fullstack-solution-template-for-agentcore)
 
